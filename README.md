@@ -2,7 +2,7 @@
 
 Alex Pico’s personal site: experimental science, scientific software, and new directions in AI.
 
-Intended custom domain: https://xanderpico.com/
+Custom domain: https://xanderpico.com/
 
 This repository contains only the public static site. Research notes and editorial working material are not included.
 
