@@ -61,3 +61,5 @@ This file is generated from the site's content database. Questions are produced 
 - [Home](https://xanderpico.com/)
 - [Selected publications](https://xanderpico.com/bibliography.html)
 - [RSS feed](https://xanderpico.com/feed.xml)
+- [Resources](https://xanderpico.com/resources/index.html)
+  - [Frontier labs paths tracker](https://xanderpico.com/resources/frontier-labs-paths/index.html): Nine possible paths for how the US government and frontier AI labs might relate, each with signposts and an estimated probability, re-scored over time.

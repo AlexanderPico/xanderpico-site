@@ -1,0 +1,41 @@
+/* Theme for the xanderpico build: loaded after xanderpico's own styles.css and the tracker's
+   style.css. Maps the tracker palette onto xanderpico's variables, so the page follows the
+   site's light/dark handling (light by default, dark via prefers-color-scheme or data-mode). */
+:root { color-scheme: light dark;
+  --bg: var(--paper); --panel: var(--surface); --panel2: var(--tint); --text: var(--ink); --text2: var(--ink); --visited: var(--accent);
+  --st-ny-fg: #4a5060; --st-ny-bd: #c9cfe0; --st-ny-bg: #f1f3f8; --st-em-fg: #8a5a00; --st-em-bd: #e3c27a; --st-em-bg: #fff6e0;
+  --st-ha-fg: #19692c; --st-ha-bd: #9fd3ab; --st-ha-bg: #e9f7ec; --lab-fg: #6b3fb0; --lab-bd: #c9b3ee;
+  --up: #1a7f37; --down: #c8312b; --warn: #8a5a00;
+  --c0: #2747c8; --c1: #c8314f; --c2: #3c7d1f; --c3: #b06a00; --c4: #7a45c7; --c5: #0f7f99;
+  --c6: #c2410c; --c7: #138f7a; --c8: #4a5060; --c9: #9f1d1d; --c10: #0e6e6e; --c11: #5b6280; }
+@media (prefers-color-scheme: dark) { :root:not([data-mode=light]) {
+  --text2: #c9cfdc;
+  --st-ny-fg: #a3a9b8; --st-ny-bd: #333a4c; --st-ny-bg: #171b28; --st-em-fg: #e3b341; --st-em-bd: #6b5214; --st-em-bg: #2b220a;
+  --st-ha-fg: #56d364; --st-ha-bd: #1f6f2b; --st-ha-bg: #0f2a16; --lab-fg: #d2a8ff; --lab-bd: #5a3d8a;
+  --up: #3fb950; --down: #f85149; --warn: #d29922;
+  --c0: #8ea6ff; --c1: #f7768e; --c2: #9ece6a; --c3: #e0af68; --c4: #bb9af7; --c5: #2ac3de;
+  --c6: #ff9e64; --c7: #73daca; --c8: #c0caf5; --c9: #ff7b72; --c10: #b4f9f8; --c11: #a9b1d6; } }
+:root[data-mode=dark] {
+  --text2: #c9cfdc;
+  --st-ny-fg: #a3a9b8; --st-ny-bd: #333a4c; --st-ny-bg: #171b28; --st-em-fg: #e3b341; --st-em-bd: #6b5214; --st-em-bg: #2b220a;
+  --st-ha-fg: #56d364; --st-ha-bd: #1f6f2b; --st-ha-bg: #0f2a16; --lab-fg: #d2a8ff; --lab-bd: #5a3d8a;
+  --up: #3fb950; --down: #f85149; --warn: #d29922;
+  --c0: #8ea6ff; --c1: #f7768e; --c2: #9ece6a; --c3: #e0af68; --c4: #bb9af7; --c5: #2ac3de;
+  --c6: #ff9e64; --c7: #73daca; --c8: #c0caf5; --c9: #ff7b72; --c10: #b4f9f8; --c11: #a9b1d6; }
+/* let the site's typography and layout win */
+html, body { background: var(--paper); }
+body { color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.6; }
+.flpt-chrome a { color: inherit; }
+.flpt-chrome .card a, .flpt-chrome .change a, .flpt-chrome .legend a, .flpt-chrome .history a, .flpt-chrome .toc a, .flpt-chrome .crumbs a, .flpt-chrome details summary { color: var(--accent); }
+.flpt-chrome h1 { font-size: clamp(30px, 3.6vw, 46px); margin: 8px 0 14px; }
+.flpt-chrome h2 { font-size: clamp(24px, 2.6vw, 32px); border-bottom: 0; padding-bottom: 0; margin: 0 0 16px; }
+.flpt-chrome h3 { font-size: 17px; letter-spacing: -.01em; }
+.flpt-chrome .intro { padding: 20px 0 12px; max-width: none; }
+.flpt-chrome .crumbs { margin: 24px 0 0; }
+.flpt-chrome .lede { font-size: 18px; color: var(--muted); max-width: 820px; }
+.flpt-chrome .card, .flpt-chrome .change, .flpt-chrome .chart { border-radius: calc(var(--radius) + 4px); background: var(--surface); }
+.flpt-chrome .summary { background: var(--tint); }
+.flpt-chrome .pval { font-family: var(--font-display); letter-spacing: var(--display-tracking); }
+.flpt-chrome .eyebrow { margin: 0; }
+.flpt-chrome summary { min-height: 0; padding: 6px 0; }
+.flpt-chrome .series .pt { stroke: var(--paper); }
