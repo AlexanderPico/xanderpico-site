@@ -29,6 +29,21 @@
     a { color: var(--accent-dark); }
     a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 
+    .site-back {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 6px 18px;
+      margin: 0;
+      padding: 10px 16px;
+      background: var(--ink);
+      color: white;
+      font-size: 10.5pt;
+      font-weight: 650;
+    }
+    .site-back a { color: white; text-decoration: underline; text-underline-offset: 3px; }
+    .site-back a:focus-visible { outline: 3px solid #ffd8cc; outline-offset: 3px; }
+
     .document {
       display: grid;
       justify-content: center;
@@ -1071,6 +1086,7 @@
     @page { size: Letter portrait; margin: 0; }
     @media print {
       html, body { background: white; }
+      .site-back { display: none; }
       .document { display: block; padding: 0; }
       .sheet {
         width: 8.5in;
@@ -1094,6 +1110,10 @@
   </style>
 </head>
 <body>
+  <nav class="site-back" aria-label="Back to the main site">
+    <a href="https://xanderpico.com/">&larr; xanderpico.com</a>
+    <a href="https://xanderpico.com/threads/passwords-in-the-age-of-ai.html">About this guide: the Thread</a>
+  </nav>
   <main class="document">
     <section class="sheet page-one" aria-labelledby="p1-title">
       <header class="masthead">
