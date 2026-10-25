@@ -39,3 +39,4 @@ body { color: var(--ink); font-family: var(--font-body); font-size: 16px; line-h
 .flpt-chrome .eyebrow { margin: 0; }
 .flpt-chrome summary { min-height: 0; padding: 6px 0; }
 .flpt-chrome .series .pt { stroke: var(--paper); }
+.flpt-chrome .series .pt.sim { fill: var(--paper); stroke: inherit; }

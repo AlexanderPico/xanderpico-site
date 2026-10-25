@@ -109,3 +109,10 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 1
 .src-label { display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--lab-fg); border: 1px solid var(--lab-bd); border-radius: 4px; padding: 0 5px; vertical-align: 1px; white-space: nowrap; }
 .src-legend { margin-top: 12px; }
 .crumbs { font-size: 13px; color: var(--muted); margin: 0 0 6px; }
+/* simulated (backfilled) snapshots: hollow dots, dashed lines, labels */
+.series .pt.sim { fill: var(--bg); stroke: inherit; stroke-width: 2; }
+.series .line.sim { stroke-dasharray: 5 4; }
+.sim-tick { font-style: italic; }
+.sim-label { display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--accent); border: 1px dashed var(--accent); border-radius: 4px; padding: 0 5px; vertical-align: 1px; white-space: nowrap; }
+.delta .sim-label { margin-left: 4px; }
+.sim-banner { border: 1px dashed var(--accent); border-radius: 8px; padding: 8px 12px; background: var(--panel2); }
