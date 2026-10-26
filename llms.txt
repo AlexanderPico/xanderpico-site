@@ -90,6 +90,8 @@ This file is generated from the site's content database. Questions are produced 
 ## Pages
 
 - [Home](https://xanderpico.com/)
+- [Threads](https://xanderpico.com/threads/index.html)
+- [Research](https://xanderpico.com/research/index.html)
 - [Selected publications](https://xanderpico.com/bibliography.html)
 - [RSS feed](https://xanderpico.com/feed.xml)
 - [Resources](https://xanderpico.com/resources/index.html)

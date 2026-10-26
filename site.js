@@ -1,13 +1,74 @@
 /* xanderpico — progressive enhancement for the Threads layout.
    Plain local JavaScript: no network requests, no storage, no cookies.
    Without it every thread, question and record is simply listed. */
+(function (root, factory) {
+  "use strict";
+  var api = factory();
+  root.XanderArchive = api;
+  if (typeof module === "object" && module.exports) module.exports = api;
+})(typeof globalThis !== "undefined" ? globalThis : this, function () {
+  "use strict";
+
+  function tokens(value) {
+    return String(value || "").trim().split(/\s+/).filter(Boolean);
+  }
+
+  function parseRow(element) {
+    function attr(name) { return element.getAttribute("data-" + name) || ""; }
+    return {
+      element: element,
+      text: String(element.textContent || "").toLowerCase(),
+      title: attr("title").toLowerCase(),
+      date: attr("date"),
+      updated: attr("updated") || attr("date"),
+      kind: attr("kind"),
+      tags: tokens(attr("tags")),
+      threads: tokens(attr("threads")),
+      year: attr("year"),
+      resource: attr("resource")
+    };
+  }
+
+  function match(filters, row) {
+    filters = filters || {};
+    var text = String(filters.text || "").trim().toLowerCase();
+    if (text && row.text.indexOf(text) === -1) return false;
+    if (filters.tag && row.tags.indexOf(filters.tag) === -1) return false;
+    if (filters.kind && row.kind !== filters.kind) return false;
+    if (filters.year && row.year !== filters.year) return false;
+    if (filters.resource && row.resource !== filters.resource) return false;
+    if (filters.thread && row.threads.indexOf(filters.thread) === -1) return false;
+    return true;
+  }
+
+  function sort(rows, key) {
+    key = key || "date-new";
+    var field = key === "title" ? "title" : key === "updated" ? "updated" : "date";
+    var ascending = key === "title" || key === "date-old";
+    return rows.slice().sort(function (a, b) {
+      var order = String(a[field] || "").localeCompare(String(b[field] || ""));
+      return ascending ? order : -order;
+    });
+  }
+
+  function readFilters(params, keys) {
+    var filters = { text: params.get("q") || "" };
+    keys.forEach(function (key) { filters[key] = params.get(key) || ""; });
+    return filters;
+  }
+
+  return { parseRow: parseRow, match: match, sort: sort, readFilters: readFilters };
+});
+
 (function () {
   "use strict";
+  if (typeof document === "undefined") return;
+
+  var archive = XanderArchive;
   document.documentElement.classList.add("js");
   var main = document.getElementById("main");
   var mapEl = document.getElementById("q-map");
   var qmap = mapEl ? JSON.parse(mapEl.textContent) : {};
-  var rec = document.querySelector("[data-records]");
   var state = { threads: null, text: "", anchors: [] };
 
   function apply() {
@@ -83,5 +144,47 @@
       });
     });
   });
+
+  function archiveFilters() {
+    document.querySelectorAll("[data-archive]").forEach(function (box) {
+      var controls = box.querySelector("[data-archive-controls]");
+      if (controls) controls.hidden = false;
+      var input = box.querySelector("[data-archive-search]");
+      var sortControl = box.querySelector("[data-archive-sort]");
+      var selects = Array.prototype.slice.call(box.querySelectorAll("[data-filter-key]"));
+      var keys = selects.map(function (select) { return select.getAttribute("data-filter-key"); });
+
+      function update() {
+        var filters = { text: input ? input.value : "" };
+        selects.forEach(function (select) { filters[select.getAttribute("data-filter-key")] = select.value; });
+        var rows = Array.prototype.slice.call(box.querySelectorAll("[data-item]")).map(archive.parseRow);
+        var shown = rows.filter(function (row) { return archive.match(filters, row); });
+        rows.forEach(function (row) { row.element.hidden = shown.indexOf(row) === -1; });
+        archive.sort(rows, sortControl ? sortControl.value : "date-new").forEach(function (row) { row.element.parentNode.appendChild(row.element); });
+        box.querySelector("[data-count]").textContent = shown.length + " of " + rows.length;
+        box.querySelector("[data-no-results]").hidden = shown.length !== 0;
+        var q = new URLSearchParams();
+        if (filters.text) q.set("q", filters.text);
+        keys.forEach(function (key) { if (filters[key]) q.set(key, filters[key]); });
+        if (sortControl && sortControl.value !== "date-new") q.set("sort", sortControl.value);
+        history.replaceState(null, "", location.pathname + (q.toString() ? "?" + q : "") + location.hash);
+      }
+
+      var restored = archive.readFilters(new URLSearchParams(location.search), keys);
+      if (input) input.value = restored.text;
+      selects.forEach(function (select) {
+        select.value = restored[select.getAttribute("data-filter-key")];
+        select.addEventListener("change", update);
+      });
+      if (sortControl) {
+        sortControl.value = new URLSearchParams(location.search).get("sort") || "date-new";
+        sortControl.addEventListener("change", update);
+      }
+      if (input) input.addEventListener("input", update);
+      update();
+    });
+  }
+
+  archiveFilters();
   apply();
 })();

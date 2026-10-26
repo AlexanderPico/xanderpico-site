@@ -98,7 +98,7 @@ h2{font-size:clamp(26px,3vw,38px);margin-bottom:12px}
 /* research-record timeline */
 .tl{position:relative;margin:18px 0 8px}
 .tl-axis{position:absolute;left:0;right:0;height:2px;background:var(--line)}
-.tl-dot{position:absolute;width:14px;height:14px;margin-left:-7px;border-radius:50%;border:2px solid var(--paper);background:var(--f);transition:transform .15s,opacity .15s}
+.tl-dot{position:absolute;width:14px;height:14px;margin-left:-7px;border-radius:50%;border:2px solid var(--paper);background:var(--k,var(--f));transition:transform .15s,opacity .15s}
 .tl-dot.k-company{border-radius:2px}
 .tl-dot.k-release{border-radius:2px;transform:rotate(45deg)}
 .tl-dot.k-milestone{border-radius:0;clip-path:polygon(50% 0,100% 100%,0 100%);border:0}
@@ -172,7 +172,23 @@ h2{font-size:clamp(26px,3vw,38px);margin-bottom:12px}
 .placeholder{border:2px dashed var(--muted);border-radius:var(--radius);padding:16px 18px;margin:24px 0;background:repeating-linear-gradient(135deg,transparent 0 12px,var(--tint) 12px 24px)}
 .placeholder p{margin:0 0 6px;font-size:14px;color:var(--muted)}
 .placeholder .placeholder-tag{display:inline-block;font-family:var(--font-mono);font-size:11px;font-weight:700;letter-spacing:.12em;background:var(--ink);color:var(--paper);padding:2px 8px;border-radius:3px}
+.archived{border-left:3px solid var(--accent);padding-left:12px;font-weight:650}.archive-controls{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 18px}.archive-controls label{font-size:13px;color:var(--muted);display:flex;gap:6px;align-items:center}.archive-controls input,.archive-controls select{font:inherit;min-height:36px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--ink);padding:4px 8px}.archive-list{list-style:none;padding:0;margin:0}.archive-row{padding:18px 0;border-top:1px solid var(--line)}.archive-row h2{font-size:22px;margin:0 0 6px}.archive-row h2 a{text-decoration:none}.archive-meta{font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:7px;align-items:center}.archive-row[hidden],.no-results[hidden]{display:none}
 
 @media(max-width:900px){.qgrid{grid-template-columns:1fr}.q{min-height:0}.sec-head,.bg{grid-template-columns:1fr;gap:12px}.thread{grid-template-columns:1fr;gap:8px}.side{flex-direction:row}.steps ol{grid-template-columns:1fr}}
 @media(max-width:560px){.wrap{padding:0 18px}.bg-areas{grid-template-columns:1fr}#disease-research{grid-column:auto}.rec,.pub{grid-template-columns:1fr;gap:2px}.search{margin-left:0;width:100%}.search input{width:100%}}
 @media (prefers-reduced-motion: reduce){*{transition:none;animation:none;scroll-behavior:auto}}
+.archive-row h2 a{color:var(--accent);text-decoration:none;border-radius:4px;padding:1px 3px;margin:0 -3px;transition:background-color .12s,box-shadow .12s}
+.archive-row h2 a:hover,.archive-row h2 a:focus-visible{background:var(--tint);box-shadow:inset 0 -2px 0 var(--accent);color:var(--accent)}
+/* One colour and one shape per kind of record, the same on every Thread page, the timeline, its legend and the record rows. */
+:root{--k-paper:#2f7bff;--k-release:#f5a000;--k-company:#14b87a;--k-milestone:#c25cff}
+.tl-dot.k-paper,.legend .g:not([class*=" k-"]),.rec .label .dot.k-paper{--k:var(--k-paper)}
+.tl-dot.k-release,.legend .g.k-release,.rec .label .dot.k-release{--k:var(--k-release)}
+.tl-dot.k-company,.legend .g.k-company,.rec .label .dot.k-company{--k:var(--k-company)}
+.tl-dot.k-milestone,.legend .g.k-milestone,.rec .label .dot.k-milestone{--k:var(--k-milestone)}
+.legend .g{background:var(--k,var(--muted))}
+.tl-dot{width:15px;height:15px;margin-left:-7.5px}
+.rec .label .dot{background:var(--k,var(--f))}
+.rec .label .dot.k-company{border-radius:2px}
+.rec .label .dot.k-release{border-radius:1px;transform:rotate(45deg) scale(.85)}
+.rec .label .dot.k-milestone{border-radius:0;clip-path:polygon(50% 0,100% 100%,0 100%)}
+.rec .label .dot{width:11px;height:11px}
