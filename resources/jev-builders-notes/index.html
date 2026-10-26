@@ -17,7 +17,7 @@ figure{margin:1.4em 0}figure img{max-width:100%;height:auto;border:1px solid var
 <h1>Building with a gut-feeling model: notes from 200,000 calls</h1>
 <p class="dek">Jev doesn&rsquo;t write; it answers typed questions about a text with a probability. These are the things that held up, the things that surprised us, and one attempt that failed.</p>
 
-<div class="box"><strong>Where this comes from.</strong> About 204,652 calls to Jev over three weeks, $3.52 in total, mostly small controlled tests: logic gates, parity, rating words, bias batteries, and a small attempt to wire up a worm&rsquo;s nerve circuit. These are observations on one model version (jev-1.13.0), not a specification, and they are independent of TypeSafe.</div>
+<div class="box"><strong>Where this comes from.</strong> About 218,928 calls to Jev over three weeks, $3.75 in total, mostly small controlled tests: logic gates, parity, rating words, bias batteries, and a small attempt to wire up a worm&rsquo;s nerve circuit. These are observations on one model version (jev-1.13.0), not a specification, and they are independent of TypeSafe.</div>
 <h2>What Jev is good at</h2>
 <ul>
 <li><strong>Cheap and fast.</strong> About $0.00001 to $0.00005 a call and about a fifth of a second. With eight calls in parallel we ran about 39 a second.</li>
@@ -27,6 +27,11 @@ figure{margin:1.4em 0}figure img{max-width:100%;height:auto;border:1px solid var
 <h2>Rules we would follow again</h2>
 <ol>
 <li><strong>Keep the number of inputs small for counting.</strong> Parity (an odd or even number of items) failed from 3 to 6 inputs and was at chance by 8. &ldquo;All of these&rdquo; and &ldquo;exactly two&rdquo; held up to 16. Break a counting rule into one-step questions.</li>
+<li><strong>Wording matters more than repeats.</strong> The same 999 word pairs gave r = 0.89 with one similarity wording and r = 0.77 with another. Repeats add little; a genuinely different question is a different rater.</li>
+<li><strong>Use ranks, not raw levels.</strong> On those pairs Jev ranked like people but was systematically stricter. Correlation is more useful than treating its 9-level score as a human score.</li>
+<li><strong>For a symmetric pair, ask both orders.</strong> Swapping the two words still moved ratings by 0.25 to 0.34 levels on a 9-level scale, although the two orders correlated 0.97. Average both orders.</li>
+<li><strong>The live price was lower than the early estimate.</strong> It was $0.071764 / 3,996 = about $0.000018 per 9-level call in S1, and $0.147422 / 9,600 = about $0.000015 in L1. Both are about a third of the earlier $0.00005 estimate.</li>
+<li><strong>Text has a weak spot for the inner body.</strong> On sensorimotor word ratings, Jev matched people best for touch (r = 0.78) and least for interoception, the inner-body sense (r = 0.49).</li>
 <li><strong>Order is part of the input.</strong> Reversing a list moved answers by about 0.2 levels on a 0&ndash;4 scale, about three times its repeat noise. Averaging two orders cut that by about 30%; four orders added little. And with mixed evidence the last items weigh more (see the bias battery).</li>
 <li><strong>List quiet inputs separately.</strong> If an input is described as &ldquo;silent&rdquo; but sits in the same list as active inputs, rewording its direction still moved the answer. Moving it to its own &ldquo;inactive inputs&rdquo; list removed the effect; an emphatic instruction only halved it, and writing activity as &ldquo;0 of 4&rdquo; made it worse.</li>
 <li><strong>Sentences are editable.</strong> Flipping the push direction of the strongest active input moved the answer the predicted way 88&ndash;90% of the time, from 5 to 41 inputs.</li>
