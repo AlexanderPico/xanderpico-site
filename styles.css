@@ -192,3 +192,13 @@ h2{font-size:clamp(26px,3vw,38px);margin-bottom:12px}
 .rec .label .dot.k-release{border-radius:1px;transform:rotate(45deg) scale(.85)}
 .rec .label .dot.k-milestone{border-radius:0;clip-path:polygon(50% 0,100% 100%,0 100%)}
 .rec .label .dot{width:11px;height:11px}
+/* podcast (Pico Bytes): series page, episode list, transcript */
+.podcast-intro{display:flex;gap:28px;align-items:flex-start}
+.podcast-intro .cover{width:160px;height:160px;flex:none;border-radius:var(--radius);border:1px solid var(--line)}
+@media (max-width:640px){.podcast-intro{flex-direction:column}}
+.episodes{list-style:none;padding:0;margin:0}
+.episode{padding:24px 0;border-bottom:1px solid var(--line)}
+.episode h2{font-size:24px;margin:6px 0 10px}
+.episode audio,.intro audio{display:block;width:100%;max-width:680px;margin:16px 0 8px}
+.transcript{max-width:760px}
+.tline{margin:0 0 14px}

@@ -16,6 +16,7 @@ I’m Alex Pico, an experimental scientist and software builder. This page follo
 - [Selected publications](https://xanderpico.com/bibliography.html)
 - [Resources](https://xanderpico.com/resources/index.html)
 - [RSS feed](https://xanderpico.com/feed.xml)
+- [Pico Bytes podcast](https://xanderpico.com/podcast/index.html): audio conversations about the site's threads and newsletters, with transcripts; feed https://xanderpico.com/podcast.xml
 
 ## Threads
 

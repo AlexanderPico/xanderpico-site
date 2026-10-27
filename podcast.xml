@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Pico Bytes</title>
+<link>https://xanderpico.com/podcast/index.html</link>
+<atom:link href="https://xanderpico.com/podcast.xml" rel="self" type="application/rss+xml"/>
+<description>Pico Bytes is a short conversation podcast from xanderpico.com, Alex Pico&#x27;s site on experimental science, software and AI. Each episode takes one thread or newsletter from the site and walks through what is published there, sources and all. Two AI voices by elevenlabs.io read a script grounded in the published page; the page itself carries the sources.</description>
+<language>en-us</language>
+<copyright>© 2026 Alex Pico. Voices: elevenlabs.io (free plan, non-commercial).</copyright>
+<lastBuildDate>Mon, 26 Oct 2026 17:00:00 -0700</lastBuildDate>
+<itunes:author>Alex Pico</itunes:author>
+<itunes:image href="https://xanderpico.com/podcast/pico-bytes-artwork.png"/>
+<image><url>https://xanderpico.com/podcast/pico-bytes-artwork.png</url><title>Pico Bytes</title><link>https://xanderpico.com/podcast/index.html</link></image>
+<itunes:category text="Technology"/>
+<itunes:explicit>false</itunes:explicit>
+<itunes:type>episodic</itunes:type>
+<podcast:guid>837c93c9-4650-5cf5-9962-e7f4786ca503</podcast:guid>
+<podcast:medium>podcast</podcast:medium>
+<item><title>Pico Bytes: Frontier labs as national laboratories, the October newsletter (voices: elevenlabs.io)</title><description>Two AI hosts walk through the October issue of the Frontier Labs newsletter on xanderpico.com: why frontier AI labs get lab-style treatment from the US government through one-off levers rather than the contract that makes national labs open, graded and replaceable; the six levers in use; estimates for nine paths to 2030; the strongest objection; and what to watch next. Every claim comes from the published newsletter, which lists all 37 sources. Voices: George and Jessica, ElevenLabs premade voices (elevenlabs.io).</description><link>https://xanderpico.com/resources/frontier-labs-newsletter/index.html</link><guid isPermaLink="false">xanderpico-pico-bytes-ep01</guid><pubDate>Mon, 26 Oct 2026 17:00:00 -0700</pubDate><enclosure url="https://xanderpico.com/audio/pico-bytes-ep01-frontier-labs.mp3" length="8990764" type="audio/mpeg"/><itunes:duration>562</itunes:duration><itunes:episode>1</itunes:episode><itunes:episodeType>full</itunes:episodeType><itunes:explicit>false</itunes:explicit><itunes:image href="https://xanderpico.com/podcast/pico-bytes-artwork.png"/><podcast:transcript url="https://xanderpico.com/podcast/pico-bytes-ep01-frontier-labs-transcript.html" type="text/html"/><podcast:transcript url="https://xanderpico.com/podcast/pico-bytes-ep01-frontier-labs-transcript.txt" type="text/plain"/></item>
+</channel>
+</rss>
