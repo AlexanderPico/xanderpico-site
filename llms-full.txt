@@ -111,6 +111,7 @@ Short index: https://xanderpico.com/llms.txt
   - [Which senses does a text-only AI hear in a word?](https://xanderpico.com/resources/jev-senses-of-words/index.html): Jev rates 600 words on six senses and two body actions and is compared with human norms: closest on touch, furthest on the inner-body sense. Work in progress.
   - [Cognitive tests at scale, for pennies: a short research article](https://xanderpico.com/resources/jev-synthesis/index.html): A short summary and research article pulling the Jev results together: what a fast, cheap judgment model shares with people, where it differs, and what that means for AI builders, Jev users and brain researchers.
   - [AI-native biotech observatory: plans versus later](https://xanderpico.com/resources/ai-native-observatory/index.html): A living record of what AI-native biotech companies said they would do, set against what their later filings say. First entries: Recursion (see its own page), Absci, Relay and Schrödinger, with a dated map of 41 companies. Work in progress.
+  - [When a company moves its own date: observatory issue 2](https://xanderpico.com/resources/ai-native-observatory-issue-2/index.html): Three public AI-native drug discovery companies, three kinds of moved plans, read straight from their annual reports: Relay's runway, Schrödinger's narrowed and ended programs, and Absci's changed plan.
 
 ## Podcast: Pico Bytes
 
