@@ -112,6 +112,7 @@ Short index: https://xanderpico.com/llms.txt
   - [Cognitive tests at scale, for pennies: a short research article](https://xanderpico.com/resources/jev-synthesis/index.html): A short summary and research article pulling the Jev results together: what a fast, cheap judgment model shares with people, where it differs, and what that means for AI builders, Jev users and brain researchers.
   - [AI-native biotech observatory: plans versus later](https://xanderpico.com/resources/ai-native-observatory/index.html): A living record of what AI-native biotech companies said they would do, set against what their later filings say. First entries: Recursion (see its own page), Absci, Relay and Schrödinger, with a dated map of 41 companies. Work in progress.
   - [When a company moves its own date: observatory issue 2](https://xanderpico.com/resources/ai-native-observatory-issue-2/index.html): Three public AI-native drug discovery companies, three kinds of moved plans, read straight from their annual reports: Relay's runway, Schrödinger's narrowed and ended programs, and Absci's changed plan.
+  - [Weightlifting, Not Forklifting: Advice for Growing Up with AI](https://xanderpico.com/resources/growing-up-with-ai-advice/index.html): Nobody knows what the AI future looks like, so don't bet a kid's childhood on one version of it. Five rules for parents and mentors that hold up either way: keep the workouts, hedge, ask how do you know, protect the human parts, and don't panic.
 
 ## Podcast: Pico Bytes
 
