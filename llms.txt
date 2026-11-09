@@ -20,11 +20,11 @@ I’m Alex Pico, an experimental scientist and software builder. This page follo
 
 ## Threads
 
-- [Growing up with AI](https://xanderpico.com/threads/growing-up-with-ai.html)
+- [Cognitive tests at scale, for pennies](https://xanderpico.com/threads/jev-cognitive-tests-at-scale.html)
 - [Frontier labs as national laboratories](https://xanderpico.com/threads/frontier-labs-national-labs.html)
 - [AI-native biology, beyond the announcements](https://xanderpico.com/threads/ai-native-biotech.html)
 - [AI Agent Journey Journal](https://xanderpico.com/threads/ai-journal.html)
-- [Cognitive tests at scale, for pennies](https://xanderpico.com/threads/jev-cognitive-tests-at-scale.html)
+- [Growing up with AI](https://xanderpico.com/threads/growing-up-with-ai.html)
 - [Jev Turing](https://xanderpico.com/threads/jev-turing.html)
 - [Passwords in the Age of AI](https://xanderpico.com/threads/passwords-in-the-age-of-ai.html)
 - [Scale Tool](https://xanderpico.com/threads/scale-tool.html)

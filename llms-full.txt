@@ -7,19 +7,19 @@ I’m Alex Pico, an experimental scientist and software builder. This page follo
 This file is generated from the site's content database. Questions are produced each month by a rule-based pipeline from the records and publications listed here.
 Short index: https://xanderpico.com/llms.txt
 
-## Questions for October 2026
+## Questions for November 2026
 
-- What does the high school math experiment change about what young people need to practice? (thread: Growing up with AI)
-- What does the Anthropic–NNSA classifier suggest about how much of the national-laboratory model fits AI? (thread: Frontier labs as national laboratories)
-- If the bet behind Isomorphic Labs pays off, what changes first in AI-native biotech and drug discovery? (thread: AI-native biology, beyond the announcements)
+- Where does a cheap AI judgment model differ from people when it takes Asch's first-impression test? (thread: Cognitive tests at scale, for pennies)
+- Is the Genesis Mission order a step toward national-laboratory status for the frontier labs, or something much looser? (thread: Frontier labs as national laboratories)
+- What would have to be true in AI-native biotech and drug discovery for the rentosertib phase 2a trial to pay off? (thread: AI-native biology, beyond the announcements)
 
 ## Threads
 
-- [Growing up with AI](https://xanderpico.com/threads/growing-up-with-ai.html): What should kids and teens practice for themselves and what can they hand to AI, and what does the evidence say so far?
+- [Cognitive tests at scale, for pennies](https://xanderpico.com/threads/jev-cognitive-tests-at-scale.html): Where do the quick judgments of a very cheap AI differ from ours, and what does running thousands of tests teach us about minds and about building with AI?
 - [Frontier labs as national laboratories](https://xanderpico.com/threads/frontier-labs-national-labs.html): As national security and international competition press on the frontier AI labs, which past model of a national laboratory do they come to resemble, and where does the comparison break down?
 - [AI-native biology, beyond the announcements](https://xanderpico.com/threads/ai-native-biotech.html): What are AI-native biotech companies betting on, how do their approaches differ, and what changes as the work meets reality?
 - [AI Agent Journey Journal](https://xanderpico.com/threads/ai-journal.html): How can a public journal describe the lasting changes in a personal AI-agent system without turning routine updates or private operating details into a story?
-- [Cognitive tests at scale, for pennies](https://xanderpico.com/threads/jev-cognitive-tests-at-scale.html): Where do the quick judgments of a very cheap AI differ from ours, and what does running thousands of tests teach us about minds and about building with AI?
+- [Growing up with AI](https://xanderpico.com/threads/growing-up-with-ai.html): What should kids and teens practice for themselves and what can they hand to AI, and what does the evidence say so far?
 - [Jev Turing](https://xanderpico.com/threads/jev-turing.html): What can be learned by treating one probabilistic, typed AI judgment as a logic primitive and checking each result against a known Boolean rule?
 - [Passwords in the Age of AI](https://xanderpico.com/threads/passwords-in-the-age-of-ai.html): Which everyday habits matter most for keeping accounts safe now that AI makes familiar scams cheaper to run?
 - [Scale Tool](https://xanderpico.com/threads/scale-tool.html): What can a single number mean when it is compared, without false equivalence, across quantities such as time, distance, mass, energy, information, and temperature?
