@@ -1,0 +1,34 @@
+Cognitive tests at scale, for pennies
+Transcript. https://xanderpico.com/podcast/index.html
+
+Kokoro (Host B): Have you heard of Jev by TypeSafe? It's an unusual AI model: give it text and a question, get a probability. Welcome to Pico Bytes.
+Curious (Host A): By contrast, we all know that ChatGPT can draft wordy explanations. But Jev doesn't work that way. It makes a small, explicit judgment you can measure.
+Kokoro (Host B): So are we actually talking about taking cognitive tests--designed for humans--and applying them to a Jev model? Like, can it have a first-impression bias?
+Curious (Host A): Well, yes. But not to test for a human mind. It's a stress test for developers before building systems that rely on its scores.
+Kokoro (Host B): How exactly did they go about doing this in a rigorous way?
+Curious (Host A): They worked with a specified Jev version, wrote predictions first, logged calls, and compared with human norms without feeding human answers to Jev.
+Kokoro (Host B): I see the benefit: Jev answers in a fifth of a second. Around two hundred twenty thousand calls cost about three dollars and eighty cents. An exceptionally cheap psychology lab.
+Curious (Host A): Cheap enough to repeat, changing one thing at a time. First, they adapted Asch's 1946 trait-order test: six personality traits, reversed to compare impressions.
+Kokoro (Host B): Right. The impressions of human participants were most strongly influenced by the first traits in the list. Did Jev follow that pattern?
+Curious (Host A): No. For example, when negative traits were listed last, Jev rated the person lower. Later information carried more weight—the reverse direction in that comparison.
+Kokoro (Host B): So I could change a score by rearranging the same evidence. Did that survive a second test?
+Curious (Host A): A later run saw the same direction across list lengths and job-candidate facts. So, yes, builders should calibrate wording and order when working with decision models.
+Kokoro (Host B): Moving on to the conjunction fallacy: two things together seeming likelier than one alone. Did Jev make that mistake?
+Curious (Host A): It depended on layout. Rated separately, Jev scored the combination above a part on every tested profile, as humans sometimes do. Side by side, it chose the combination on none.
+Kokoro (Host B): Same model, different layout. So, again, a potential source of bias users of Jev should pay attention to.
+Curious (Host A): Test the exact wording and layout you plan to use in production. Keep the version, the prompt and the results. Otherwise you might not get what you expected.
+Kokoro (Host B): What about other scenarios where Jev responds just like a human?
+Curious (Host A): On nearly a thousand word pairs, Jev ranked similarity much like human ratings. One striking example was when Jev gave an oddly low similarity score for alcohol and gin.
+Kokoro (Host B): Well gin is not my favorite alcohol either...
+Curious (Host A): Sure. But wording and order shifted the responses. Reversing a word pair moved individual answers. For a symmetric question, ask both ways before accepting a score.
+Kokoro (Host B): A precise-looking number can still be using the wrong ruler.
+Curious (Host A): Even an input labeled “silent” changed an answer when it sat beside active inputs and its direction was rewritten.
+Kokoro (Host B): That is not silent. That is a stage whisper.
+Curious (Host A): Putting inactive inputs in their own list removed the effect. If a field is off, keep it out of the active question.
+Kokoro (Host B): Okay. Suppose I want to use Jev as a score or a gate. What do I do before shipping?
+Curious (Host A): Pin the version and exact question. Test order, wording and layout. Compare with human ratings where they exist. Calibrate the scale, and keep inactive inputs separate.
+Kokoro (Host B): And don't turn one measured system into a replacement for human responses.
+Curious (Host A): Right. Cheap calls make careful tests affordable. They do not make the answers themselves reliable.
+Kokoro (Host B): The question is part of the instrument. If you change it, measure again.
+Curious (Host A): The article and linked result write-ups in the cognitive-tests thread on xanderpico.com have the details, methods and limits. This is independent work, still in progress.
+Kokoro (Host B): Thanks for listening to Pico Bytes.

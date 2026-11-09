@@ -26,6 +26,7 @@ figure{margin:1.4em 0}figure img{max-width:100%;height:auto;border:1px solid var
 <meta name="twitter:title" content="Cognitive tests at scale, for pennies: a short research article">
 <meta name="twitter:description" content="A short research article and summary of cheap, fast cognitive tests run on a judgment model: word norms, bias tests, word similarity, senses of words, and what it means for AI builders, Jev users and brain researchers.">
 <link rel="alternate" type="application/rss+xml" title="Pico Bytes" href="../../podcast.xml">
+<style>.xp-listen{border-left:4px solid var(--accent,#2747c8);background:rgba(39,71,200,.07);padding:12px 16px;margin:1.2em 0}.xp-listen p{margin:.2em 0}.xp-listen audio{display:block;width:100%;margin:.5em 0}.xp-listen-links{font-size:15px}</style>
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -83,6 +84,37 @@ figure{margin:1.4em 0}figure img{max-width:100%;height:auto;border:1px solid var
      "item": "https://xanderpico.com/resources/jev-synthesis/index.html"
     }
    ]
+  },
+  {
+   "@type": "PodcastEpisode",
+   "@id": "https://xanderpico.com/podcast/index.html#ep2",
+   "url": "https://xanderpico.com/podcast/index.html#ep2",
+   "name": "Cognitive tests at scale, for pennies",
+   "episodeNumber": 2,
+   "datePublished": "2026-11-08",
+   "description": "Jev from TypeSafe AI answers a defined question about text with a probability. What happens when researchers put this unusual tool through cognitive tests designed for people? This short conversation follows the independent work on xanderpico.com: a trait-order result opposite to the first-impression pattern used for comparison, a conjunction judgment that changes with layout, and word-similarity rankings that resemble human ratings while the raw scores do not. The hosts turn those results into practical advice for builders: pin the version and exact question, test wording, order and layout, compare with human ratings where available, and keep inactive inputs separate. The article and linked result write-ups have the full methods, numbers and caveats. Independent work; not affiliated with or endorsed by TypeSafe. This episode uses scripted AI-generated hosts and synthetic voices. AI-generated voices using OpenMOSS-TTSD; reference voices from Qwen3-TTS VoiceDesign and Kokoro.",
+   "partOfSeries": {
+    "@type": "PodcastSeries",
+    "@id": "https://xanderpico.com/podcast/index.html#series",
+    "name": "Pico Bytes",
+    "url": "https://xanderpico.com/podcast/index.html"
+   },
+   "associatedMedia": {
+    "@type": "AudioObject",
+    "contentUrl": "https://xanderpico.com/audio/pico-bytes-ep02-jev-cognitive-tests.mp3",
+    "encodingFormat": "audio/mpeg",
+    "duration": "PT4M16S",
+    "contentSize": "5124727",
+    "transcript": "https://xanderpico.com/podcast/pico-bytes-ep02-jev-cognitive-tests-transcript.html"
+   },
+   "timeRequired": "PT4M16S",
+   "isBasedOn": "https://xanderpico.com/resources/jev-synthesis/index.html",
+   "author": {
+    "@type": "Person",
+    "@id": "https://xanderpico.com/#person",
+    "name": "Alex Pico",
+    "url": "https://xanderpico.com/"
+   }
   }
  ]
 }
@@ -94,6 +126,10 @@ figure{margin:1.4em 0}figure img{max-width:100%;height:auto;border:1px solid var
 <p class="small">RESOURCE &middot; COGNITIVE TESTS AT SCALE &middot; Synthesis &middot; October 2026 &middot; work in progress</p>
 <h1>Cognitive tests at scale, for pennies: a short research article</h1>
 <p class="dek">About 220,000 logged calls and under four dollars. What a fast, cheap judgment model shares with people, where it differs, and what that is good for.</p>
+<!-- podcast: added at build time by the site generator -->
+<aside class="xp-listen" aria-label="Listen to this issue"><p class="xp-listen-title"><strong>Listen: Pico Bytes episode 2</strong> · 4:16 · AI-generated voices using OpenMOSS-TTSD; reference voices from Qwen3-TTS VoiceDesign and Kokoro.</p><audio controls preload="none" src="../../audio/pico-bytes-ep02-jev-cognitive-tests.mp3"><a href="../../audio/pico-bytes-ep02-jev-cognitive-tests.mp3">Download the MP3</a></audio><p class="xp-listen-links"><a href="../../podcast/pico-bytes-ep02-jev-cognitive-tests-transcript.html">Transcript</a> · <a href="../../podcast/index.html">All episodes</a> · <a href="../../podcast.xml">Podcast RSS</a></p></aside>
+<!-- /podcast -->
+
 <div class="box"><strong>In short.</strong></div>
 <p>Thesis: A cheap, typed judgment model can support useful cognitive tests at a scale that was previously impractical, but it must be measured as its own system rather than treated as a person.</p>
 <ul><li>The surprise: in Asch-style trait lists, Jev trusts the last information it hears. Later negative traits lowered its rating, the reverse of the first-impression direction used for the human comparison.</li><li>Linda depends on format: rated alone, the conjunction was higher on every tested profile; shown side by side, Jev chose the conjunction on none.</li><li>It is a harsher but rank-faithful word-pair judge: on 999 SimLex-999 pairs, pooled r = 0.854 [0.841, 0.868], while the fitted slope was 0.636 and most ratings sat below equal human levels.</li><li>It matches human sensorimotor word ratings best for touch (r = 0.783) and least for the inner body, interoception (r = 0.494).</li><li>The cost: all of this took about 220,000 calls and about $3.80 in total.</li></ul>
