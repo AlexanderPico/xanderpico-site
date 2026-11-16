@@ -17,6 +17,7 @@
   "json": "https://xanderpico.com/feed.json",
   "podcast": "https://xanderpico.com/podcast.xml"
  },
+ "about_page": "https://xanderpico.com/about.html",
  "index": {
   "llms_txt": "https://xanderpico.com/llms.txt",
   "sitemap": "https://xanderpico.com/sitemap.xml"

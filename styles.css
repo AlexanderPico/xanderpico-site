@@ -202,8 +202,11 @@ h2{font-size:clamp(26px,3vw,38px);margin-bottom:12px}
 .episode audio,.intro audio{display:block;width:100%;max-width:680px;margin:16px 0 8px}
 .transcript{max-width:760px}
 .tline{margin:0 0 14px}
-.xp-meta{font-size:14px;line-height:1.5;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;margin:0 0 20px;color:var(--muted)}
+.xp-meta{font-size:13px;line-height:1.5;margin:0 0 14px;color:var(--muted)}
 .xp-meta p{margin:2px 0}
+.xp-more{border-top:1px solid var(--line);margin:40px 0 0;padding:14px 0 0}
+.about section{max-width:760px}
+.about h2{margin-top:36px}
 .findings{margin:0;padding-left:20px}
 .findings li{margin:0 0 10px}
 .findings .src{font-size:13px;white-space:nowrap}

@@ -17,6 +17,7 @@ I’m Alex Pico, an experimental scientist and software builder. This page follo
 - [Threads](https://xanderpico.com/threads/index.html)
 - [Research record](https://xanderpico.com/research/index.html)
 - [Selected publications](https://xanderpico.com/bibliography.html)
+- [About](https://xanderpico.com/about.html): who writes this site, how the work is made with AI research assistants, and how to quote and cite it.
 - [Resources](https://xanderpico.com/resources/index.html)
 - [RSS feed](https://xanderpico.com/feed.xml)
 - [Pico Bytes podcast](https://xanderpico.com/podcast/index.html): audio conversations about the site's threads and newsletters, with transcripts; feed https://xanderpico.com/podcast.xml
