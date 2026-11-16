@@ -1,0 +1,37 @@
+/* Who counts? tracker styles: loaded after the site stylesheet and built on its variables. */
+.wc .intro { padding: 20px 0 12px; max-width: none; }
+.wc .crumbs { margin: 24px 0 0; font-size: 14px; color: var(--muted); }
+.wc h1 { font-size: clamp(30px, 3.6vw, 46px); margin: 8px 0 14px; }
+.wc h2 { font-size: clamp(24px, 2.6vw, 32px); margin: 40px 0 16px; }
+.wc h3 { font-size: 18px; margin: 0 0 4px; }
+.wc h4 { font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 16px 0 4px; }
+.wc .lede { font-size: 18px; color: var(--muted); max-width: 820px; }
+.wc .meta, .wc .muted { color: var(--muted); }
+.wc .small { font-size: 13px; }
+.wc .banner { background: var(--tint); padding: 8px 12px; border-radius: var(--radius); }
+.wc .toc { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 12px 0 0; }
+.wc .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.wc table.matrix { border-collapse: collapse; width: 100%; min-width: 860px; font-size: 14px; }
+.wc table.matrix th, .wc table.matrix td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+.wc table.matrix thead th { font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); background: var(--tint); }
+.wc table.matrix tbody th { font-weight: 600; min-width: 190px; }
+.wc table.matrix tbody tr:last-child th, .wc table.matrix tbody tr:last-child td { border-bottom: 0; }
+.wc .val { display: inline-block; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line); background: var(--tint); font-size: 13px; line-height: 1.5; }
+.wc .val-nf { background: transparent; color: var(--muted); border-style: dashed; }
+.wc article.row { border: 1px solid var(--line); border-radius: calc(var(--radius) + 4px); background: var(--surface); padding: 18px 20px; margin: 0 0 18px; }
+.wc article.row > header { margin-bottom: 8px; }
+.wc .st-line { margin: 6px 0 0; font-size: 15px; }
+.wc dl.qa { margin: 8px 0 0; }
+.wc .qa-row { padding: 10px 0; border-top: 1px solid var(--line); }
+.wc .qa-row dt { font-weight: 600; font-size: 15px; margin-bottom: 4px; }
+.wc .qa-row dd { margin: 0; }
+.wc blockquote { margin: 8px 0 0; padding: 4px 0 4px 14px; border-left: 3px solid var(--accent); }
+.wc blockquote p { margin: 0 0 4px; }
+.wc blockquote footer { font-size: 13px; color: var(--muted); }
+.wc .src-label { display: inline-block; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; border: 1px solid var(--line); border-radius: 4px; padding: 0 5px; margin: 0 4px; }
+.wc .note { font-size: 14px; color: var(--muted); margin: 6px 0 0; }
+.wc .pages { font-size: 13px; margin: 6px 0 0; word-break: break-word; }
+.wc .reading { max-width: 760px; }
+.wc ul.values { columns: 2; padding-left: 18px; }
+.wc ol.history { padding-left: 20px; }
+@media (max-width: 640px) { .wc ul.values { columns: 1; } .wc article.row { padding: 14px; } }

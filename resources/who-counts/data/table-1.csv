@@ -1,0 +1,13 @@
+Arrangement,Type,Who writes the definitions,Who pays the checker,When the authority ends,Whose evidence the checker uses,What the checker loses if wrong
+AIUC-1,Standard or certification,The checker or its owner,Not stated,Periodic re-approval,Both,Not stated
+ISO/IEC 42001:2023 AI management system,Standard or certification,A standards body or consortium,Not stated,Not stated,Not stated,Not stated
+Responsible Scaling Policy,Company framework,The checked party,Not stated,Until changed by its author,Both,Not stated
+Preparedness Framework,Company framework,The checked party,Not stated,Until changed by its author,Both,Not stated
+"Illinois SB 315 (Public Act 104-0538), Artificial Intelligence Safety Measures Act",Law or registry,A legislature or regulator,The checked party,Not stated,Not stated,Not stated
+"California AB 1405 (Chapter 178, Statutes of 2026), AI Auditor Registry",Law or registry,A legislature or regulator,Not stated,Not stated,Not stated,"A stated penalty, loss or removal"
+"EU AI Act conformity assessment and notified bodies (Regulation (EU) 2024/1689, Art. 28-39, 43, 44, 99)",Law or registry,A legislature or regulator,Not stated,Fixed date or term,Not stated,"A stated penalty, loss or removal"
+AI Risk Management Framework (AI RMF 1.0),Public framework,Not stated,Not applicable,Until changed by its author,Not applicable,Not applicable
+AI safety via debate,AI-checks-AI method,Researchers (published method),Not applicable,Not applicable,The checked party's own reports,Not stated
+AI Control: Improving Safety Despite Intentional Subversion,AI-checks-AI method,Researchers (published method),Not applicable,Not applicable,The checked party's own reports,Not stated
+"Moffatt v. Air Canada, 2024 BCCRT 149",Tribunal ruling,A court or tribunal,Not stated,Not stated,Not applicable,Not stated
+ElevenLabs AIUC-1-backed AI agent insurance policy,Insurance product,Not stated,Not stated,Not stated,Tests run by the checker,Not stated
