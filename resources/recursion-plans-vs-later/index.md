@@ -1,0 +1,85 @@
+---
+title: "Recursion: what it said it would do, and what it says now"
+url: https://xanderpico.com/resources/recursion-plans-vs-later/index.html
+author: Alex Pico
+published: 2026-11-03
+updated: 2026-11-03
+kind: table
+thread: "AI-native biology, beyond the announcements"
+thread_url: https://xanderpico.com/threads/ai-native-biotech.html
+summary: "A scored record of Recursion's dated statements from its own filings and calls: what it said, what it said later, which items were met, missed or stopped, and the dates still ahead."
+---
+RESOURCE · AI-NATIVE BIOTECH · Recursion tracker · last checked November 3, 2026
+
+# Recursion: what it said it would do, and what it says now
+
+Recursion is one of the best-known AI-first drug discovery companies, and it has published more dated plans than most. This page is the record: each statement beside what the company said later, scored, with the dates still ahead. The [companion piece](https://xanderpico.com/resources/recursion-what-it-adds-up-to/) argues what it adds up to.
+
+**How to read this.** Every quote is from a company filing, press release, call transcript, or press coverage quoting the company, and each is linked. Statements are compared with later statements, not with trial results, which this page does not judge. The scores (Met, Missed, Stopped, Changed, Open) are my calls on the company’s own wording. The transcripts are machine-made and not checked against audio. Updated when the company reports. Research and commentary, not investment advice or a view on the stock.
+
+## The record at a glance
+
+| Record | Items |
+| --- | --- |
+| Met | 7 of the 15 rows below: REC-3565 first dosing, REC-4881 data, REC-617 data and combinations, REC-7735 in the clinic, the REC-1245 update, the Sanofi candidate. Most are milestones the company largely controls. |
+| Missed | The original lead-program plan, the REC-4881 timeline, REC-4539’s start, and the 100-program pipeline. |
+| Stopped | REC-2282 and REC-3964 here; Fierce also reports REC-994 discontinued. |
+| Changed | REC-617 and REC-3565 went from “on plan” to “seek a partner”; the runway moved after a financing. |
+| Open | The REC-4881 regulatory update due by year end 2026. |
+
+**My judgment.** The pattern is consistent. Recursion has missed or reversed nearly everything that depended on scale or on results (the 2021 plan, the pipeline count, REC-2282, REC-994, REC-3964). Since the May 2025 reset it has met most of what depended on its own execution, with REC-4539 the exception. That is a real improvement, and it is also the easier half to meet. The two programs it moved to “seek a partner” were both on plan in the previous list, so “on plan” has not meant “kept in-house.” The count is mine, on the company’s own list; it is not a measure of the science. The “up to 10 additional clinical program milestones” total in the FY2024 report is not reproduced here: the report names six, and I did not find the other four.
+
+## Statements and what came after
+
+| Item | Said earlier | Said later | Call |
+| --- | --- | --- | --- |
+| Four lead programs | “Our four lead programs are expected to enroll patients in Phase 2 clinical trials within the next four to five quarters while preclinical programs are progressing.” [S-1, March 2021](https://www.sec.gov/Archives/edgar/data/1601830/000119312521089610/d89478ds1.htm) | “REC-2282 for the treatment of neurofibromatosis type 2, or NF2—expected Phase 2/3 initiation in Q2 2022.” and “REC-4881 for the treatment of familial adenomatous polyposis, or FAP—expected Phase 2 initiation in Q3 2022.” [FY2021 10-K, March 2022](https://www.sec.gov/Archives/edgar/data/1601830/000160183022000012/rxrx-20211231.htm) | Missed Of the three programs the FY2021 10-K put dates on, REC-2282 was stopped, REC-3964 was shelved, and REC-4881 was re-planned as a different study. The S-1 names the four lead programs only in a figure, so I do not name the fourth. |
+| REC-4881 (FAP) | “REC-4881 for the potential treatment of AXIN1 or APC mutant cancers — a Phase 1b/2 study in select tumor types is expected to initiate in early 2024.” [FY2022 10-K, Feb 2023](https://www.sec.gov/Archives/edgar/data/1601830/000160183023000010/rxrx-20221231.htm) | “Following positive clinical data from TUPELO shared in 2025, in the first half of 2026 we expect to engage with the FDA to define a registration path” [FY2025 10-K, Feb 2026](https://www.sec.gov/Archives/edgar/data/1601830/000160183026000039/rxrx-20251231.htm) | Missed The Q3 2022 Phase 2 start for FAP was followed by a different plan in the FY2022 10-K (a Phase 1b/2 study in AXIN1/APC-mutant cancers, early 2024). First data came in May 2025. I did not trace whether the 2022 study began. |
+| REC-2282 (NF2) | “REC-2282 for the treatment of neurofibromatosis type 2, or NF2—expected Phase 2/3 initiation in Q2 2022.” [FY2021 10-K, March 2022](https://www.sec.gov/Archives/edgar/data/1601830/000160183022000012/rxrx-20211231.htm) | “the totality of data on the '2282 and '994 programs support discontinuing the studies outright” (May 2025, as reported by Fierce) [Fierce Biotech, May 2025](https://www.fiercebiotech.com/biotech/several-months-after-exscientia-merge-ai-outfit-recursion-reworks-pipeline) | Stopped The company says the data supported stopping. The FY2024 list expected a futility analysis; none is reported, because the program was discontinued in May 2025. |
+| REC-3964 (C. difficile) | “We made progress in IND-enabling studies for REC-3964 and plan to initiate a Phase 1 study in the second half of 2022.” [FY2021 10-K, March 2022](https://www.sec.gov/Archives/edgar/data/1601830/000160183022000012/rxrx-20211231.htm) | “weighing whether to pursue out-licensing opportunities” (May 2025, as reported by Fierce) [Fierce Biotech, May 2025](https://www.fiercebiotech.com/biotech/several-months-after-exscientia-merge-ai-outfit-recursion-reworks-pipeline) | Stopped A 2022 Phase 1 plan became a 2024 Phase 2 plan, then a deprioritization and a look at out-licensing. |
+| REC-4539 (LSD1i) | “the planned REC-4539 Phase 1 study that originated at Exscientia and is commencing in the first half of 2025.” [FY2024 10-K, Feb 2025](https://www.sec.gov/Archives/edgar/data/1601830/000160183025000035/rxrx-20241231.htm) | “We now expect to initiate the Phase 1 trial (ENLYGHT) in the first half of 2026” [FY2025 10-K, Feb 2026](https://www.sec.gov/Archives/edgar/data/1601830/000160183026000039/rxrx-20251231.htm) | Missed A twelve-month slip, in the company’s own words. Fierce reported work on this program was paused in May 2025. |
+| Size of the pipeline | “I think our pipeline will have 100 programs in it in the not-too-distant future.” (CEO, Sept 2024) GEN interview, Sept 2024 | “Together, we may initiate up to 40 small molecule programs over a decade or longer.” [FY2025 10-K, Feb 2026](https://www.sec.gov/Archives/edgar/data/1601830/000160183026000039/rxrx-20251231.htm) | Missed 100 programs “in the not-too-distant future” became “up to 40” over “a decade or longer”. The figures count different things, but the ambition was cut, and Fierce wrote that 100 medicines in 10 years “has not come to pass”. |
+| REC-3565 (MALT-1i) | “REC-3565 (MALT-1i) will enter Phase 1 for B-cell malignancies, with the first patient expected to be dosed in the first half of 2025.” | “A multicenter, open-label, dose escalation Phase 1 study (EXCELERIZE) is ongoing, with the first patient dosed in April 2025.” | Met First patient dosed within the stated half-year. Now: the company says it will seek a partner. Update Nov 2026: “intends to pursue partnership opportunities” ([Q3 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1601830/000160183026000145/rxrx-20260930.htm)). The filings do not say why. |
+| REC-4881 (FAP) | “REC-4881 (MEK1/2i) will report Phase 1b/2 safety and early efficacy data for FAP during the same period.” | “In May 2025, preliminary Phase 1b/2 data was shared at Digestive Disease Week 2025 for 6 patients following 13 weeks of treatment with REC-4881” | Met Preliminary data on 6 patients in May 2025, a larger set in December 2025, and further data in November 2026. |
+| REC-617 (CDK7i), data | “Additional Phase 1 data from the ELUCIDATE trial for REC-617 (CDK7i) in advanced solid tumors is expected in the second half of 2025.” | “In November 2025, updated results from a monotherapy cohort of 29 heavily pre-treated patients who received 6 dose levels of REC-617 (QD and BID) were reported.” | Met Updated results reported November 2025. Now: partnering. Update Nov 2026: partnership opportunities ([10-Q](https://www.sec.gov/Archives/edgar/data/1601830/000160183026000145/rxrx-20260930.htm)). |
+| REC-617 (CDK7i), combinations | “REC-617 (CDK7i) will initiate combination studies in advanced solid tumors in the first half of 2025.” | “in 2025 the ELUCIDATE study was expanded into platinum-resistant ovarian cancer (PROC), with a Phase 2 dose expansion monotherapy cohort ongoing and a Phase 1 dose escalation combination arm also initiated.” | Met Done in 2025; the report gives the year, not the half-year. Now: partnering. Update Nov 2026: partnership opportunities ([10-Q](https://www.sec.gov/Archives/edgar/data/1601830/000160183026000145/rxrx-20260930.htm)). |
+| REC-7735 in the clinic | “And, we just received IND clearance for REC-7735, positioning it to enter the clinic later this year.” [Q2 2026 call, Aug 2026](https://www.recursion.com/news/full-transcript-of-recursions-second-quarter-2026-earnings-call) | “In the second half of 2026, Recursion initiated the Phase 1/2 ZINNIA clinical study for patients with select PIK3CA H1047R-mutant solid tumors.” [Q3 2026 10-Q, Nov 2, 2026](https://www.sec.gov/Archives/edgar/data/1601830/000160183026000145/rxrx-20260930.htm) | Met Within the stated window. |
+| REC-1245 update | “For REC-1245, we are continuing our dose escalation and generating additional phase 1 data, and we’ll have a more wholesome update, later this year.” [Q2 2026 call](https://www.recursion.com/news/full-transcript-of-recursions-second-quarter-2026-earnings-call) | “Early data from the Phase 1 dose-escalation portion of DAHLIA, our ongoing open-label Phase 1/2 study of REC-1245, show the following (data cutoff: August 21, 2026)” [Q3 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1601830/000160183026000145/rxrx-20260930.htm) | Met Delivered. The results are the company’s description; see the companion piece for how strong they look. |
+| Sanofi candidate | “With Sanofi, we expect the potential nomination of an oral I&I development candidate” [Q2 2026 call](https://www.recursion.com/news/full-transcript-of-recursions-second-quarter-2026-earnings-call) | “Sanofi has optioned the first development candidate from the two companies’ multi-program research collaboration.” [Q3 2026 press release](https://ir.recursion.com/news-releases/news-release-details/recursion-reports-third-quarter-2026-financial-results-and) | Met Sanofi optioned the first candidate. No date had been stated in the plan. |
+| REC-4881 data and regulatory update | “additional phase 2 data for REC-4881 and a regulatory update before year end” [Q2 2026 call](https://www.recursion.com/news/full-transcript-of-recursions-second-quarter-2026-earnings-call) | “On November 2, Recursion announced further positive data from its ongoing Phase 1b/2 TUPELO trial of REC-4881, an investigational, oral MEK1/2 inhibitor in development for FAP.” “The Company anticipates initiating a registrational trial in the second half of 2027, pending ongoing FDA discussions, and will provide additional details later this year.” [Q3 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1601830/000160183026000145/rxrx-20260930.htm) | Open Data delivered. The regulatory update is still due by year end 2026: the one dated item from the Q2 call not yet met. |
+| Cash runway | “We ended the quarter with approximately $557M in cash and equivalents, which we believe provides us with an operating runway through early 2028.” [Q2 2026 call](https://www.recursion.com/news/full-transcript-of-recursions-second-quarter-2026-earnings-call) | “Expected cash runway extended into 2029, including proceeds from the October 2026 follow-on offering” [Q3 2026 press release](https://ir.recursion.com/news-releases/news-release-details/recursion-reports-third-quarter-2026-financial-results-and) | Changed Runway moved later after an October 2026 offering (about $187 million net, per the 10-Q). The 10-Q itself gives no runway date, only that cash is sufficient for at least the next 12 months. |
+
+## Dates ahead
+
+These are the company’s own statements about when something will happen, in its own words. They are listed so they can be checked, not as a forecast. Note how few are firm: after 2026, the dated items are second-half and full-year targets.
+
+| When | What | The company’s words |
+| --- | --- | --- |
+| By year end 2026 | A regulatory update for REC-4881. | “additional phase 2 data for REC-4881 and a regulatory update before year end” ([Q2 2026 call](https://www.recursion.com/news/full-transcript-of-recursions-second-quarter-2026-earnings-call)) |
+| Second half of 2027 | Start of a registrational trial for REC-4881, pending FDA discussions. | “The Company anticipates initiating a registrational trial in the second half of 2027, pending ongoing FDA discussions, and will provide additional details later this year.” ([10-Q](https://www.sec.gov/Archives/edgar/data/1601830/000160183026000145/rxrx-20260930.htm)) |
+| Second half of 2027 | Preliminary dose expansion data for REC-1245 in endometrial cancer. | “Preliminary dose expansion data in endometrial cancer are expected in the second half of 2027.” ([10-Q](https://www.sec.gov/Archives/edgar/data/1601830/000160183026000145/rxrx-20260930.htm)) |
+| 2027 | The Sanofi-optioned candidate enters Phase 1, funded and led by Sanofi. | “is expected to enter Phase 1 clinical trials in 2027, with Sanofi funding and leading further development” ([10-Q](https://www.sec.gov/Archives/edgar/data/1601830/000160183026000145/rxrx-20260930.htm)) |
+| 2026 and 2027 | Spending guidance. | “2026 cash operating expense guidance reiterated at less than $375 million, with 2027 guidance of less than $360 million” ([press release](https://ir.recursion.com/news-releases/news-release-details/recursion-reports-third-quarter-2026-financial-results-and)) |
+
+## What the company says it still has to show
+
+- That polyp reduction in REC-4881 “can actually translate into benefit that's meaningful for patients” (chief medical officer, [Q3 2026 call](https://finance.yahoo.com/quote/RXRX/earnings/RXRX-Q3-2026-earnings_call-724978.html)).
+- “The higher bar we set for ourselves is repeatability. Not one target, not one molecule, or one clinical result, but the ability to do this across programs again and again.” (CEO, same call). **My judgment:** that is the hardest of its standards to fail, because the company defines it. It becomes a real test only when it has a number: how many programs, reaching what stage, by when.
+
+## A promise that stops appearing
+
+From the FY2021 through FY2024 annual reports, the business section carries the same promise: “Over time, and as our OS improves, we expect that moving failure earlier in the pipeline will result in an overall lower cost of drug development.” I did not find that sentence, or two shorter phrases from it, in the [FY2025 report](https://www.sec.gov/Archives/edgar/data/1601830/000160183026000039/rxrx-20251231.htm). A missing sentence is not a retraction, and I only searched for those phrases. **My judgment:** it is the one promise about the economics of the model, and the company has not said whether it still holds; that is worth asking.
+
+Sources are linked at each quote. Company filings and press releases are the company’s own text. The call transcript is machine-made and not checked against audio. Research and commentary, not investment advice or a view on the stock.
+
+---
+
+## About this page
+
+- Cite as: Alex Pico. “Recursion: what it said it would do, and what it says now.” xanderpico.com, published November 3, 2026. https://xanderpico.com/resources/recursion-plans-vs-later/index.html
+- Tables as CSV: https://xanderpico.com/resources/recursion-plans-vs-later/data/table-1.csv, https://xanderpico.com/resources/recursion-plans-vs-later/data/table-2.csv, https://xanderpico.com/resources/recursion-plans-vs-later/data/table-3.csv
+- Thread: [AI-native biology, beyond the announcements](https://xanderpico.com/threads/ai-native-biotech.md)
+- Previous in this thread: [When a company moves its own date: observatory issue 2](https://xanderpico.com/resources/ai-native-observatory-issue-2/index.md)
+- Next in this thread: [Recursion promised 100 drugs, then proof](https://xanderpico.com/resources/recursion-what-it-adds-up-to/index.md)
+- Updates for this thread: https://xanderpico.com/feeds/ai-native-biotech.xml
+- Site index: https://xanderpico.com/llms.txt · connections between threads: https://xanderpico.com/site.json

@@ -1,0 +1,514 @@
+{
+ "version": "https://jsonfeed.org/version/1.1",
+ "title": "Alex Pico · xanderpico",
+ "home_page_url": "https://xanderpico.com/",
+ "feed_url": "https://xanderpico.com/feed.json",
+ "description": "New threads, resources, tracker snapshots, podcast episodes and monthly questions from xanderpico.com.",
+ "language": "en",
+ "authors": [
+  {
+   "name": "Alex Pico",
+   "url": "https://xanderpico.com/"
+  }
+ ],
+ "items": [
+  {
+   "id": "https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-12.html",
+   "url": "https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-12.html",
+   "title": "Snapshot 2026-11-12: Frontier labs paths tracker",
+   "date_published": "2026-11-12T00:00:00Z",
+   "summary": "A dated snapshot of Frontier labs paths tracker, kept at a permanent address. Nine possible paths for how the US government and frontier AI labs might relate, each with signposts and an estimated probability, re-scored over time. Includes three simulated 2026 quarter-end points.",
+   "content_text": "A dated snapshot of Frontier labs paths tracker, kept at a permanent address. Nine possible paths for how the US government and frontier AI labs might relate, each with signposts and an estimated probability, re-scored over time. Includes three simulated 2026 quarter-end points.",
+   "tags": [
+    "snapshot",
+    "Frontier labs as national laboratories"
+   ],
+   "_thread": {
+    "id": "frontier-labs-national-labs",
+    "url": "https://xanderpico.com/threads/frontier-labs-national-labs.html",
+    "markdown": "https://xanderpico.com/threads/frontier-labs-national-labs.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/resources/ai-native-q3-2026-comparison/index.html",
+   "url": "https://xanderpico.com/resources/ai-native-q3-2026-comparison/index.html",
+   "title": "Article: Four AI-first drug companies, one quarter",
+   "date_published": "2026-11-12T00:00:00Z",
+   "summary": "Recursion, Relay, Schrödinger and Absci in the same reporting season: all are moving programs toward partners, dates differ, and almost no one names the benchmark behind a speed claim.",
+   "content_text": "Recursion, Relay, Schrödinger and Absci in the same reporting season: all are moving programs toward partners, dates differ, and almost no one names the benchmark behind a speed claim.",
+   "tags": [
+    "article",
+    "AI-native biology, beyond the announcements"
+   ],
+   "_thread": {
+    "id": "ai-native-biotech",
+    "url": "https://xanderpico.com/threads/ai-native-biotech.html",
+    "markdown": "https://xanderpico.com/threads/ai-native-biotech.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/questions-2026-11",
+   "url": "https://xanderpico.com/#questions",
+   "title": "Questions for November 2026",
+   "date_published": "2026-11-09T08:16:14-08:00",
+   "summary": "Where does a cheap AI judgment model differ from people when it takes Asch's first-impression test? Is the Genesis Mission order a step toward national-laboratory status for the frontier labs, or something much looser? What would have to be true in AI-native biotech and drug discovery for the rentosertib phase 2a trial to pay off?",
+   "content_text": "Where does a cheap AI judgment model differ from people when it takes Asch's first-impression test? Is the Genesis Mission order a step toward national-laboratory status for the frontier labs, or something much looser? What would have to be true in AI-native biotech and drug discovery for the rentosertib phase 2a trial to pay off?",
+   "tags": [
+    "questions"
+   ]
+  },
+  {
+   "id": "https://xanderpico.com/podcast/index.html#ep2",
+   "url": "https://xanderpico.com/podcast/index.html#ep2",
+   "title": "Podcast: Cognitive tests at scale, for pennies",
+   "date_published": "2026-11-08T20:07:46-08:00",
+   "summary": "Jev from TypeSafe AI answers a defined question about text with a probability. What happens when researchers put this unusual tool through cognitive tests designed for people? This short conversation follows the independent work on xanderpico.com: a trait-order result opposite to the first-impression pattern used for comparison, a conjunction judgment that changes with layout, and word-similarity rankings that resemble human ratings while the raw scores do not. The hosts turn those results into practical advice for builders: pin the version and exact question, test wording, order and layout, compare with human ratings where available, and keep inactive inputs separate. The article and linked result write-ups have the full methods, numbers and caveats. Independent work; not affiliated with or endorsed by TypeSafe. This episode uses scripted AI-generated hosts and synthetic voices.",
+   "content_text": "Jev from TypeSafe AI answers a defined question about text with a probability. What happens when researchers put this unusual tool through cognitive tests designed for people? This short conversation follows the independent work on xanderpico.com: a trait-order result opposite to the first-impression pattern used for comparison, a conjunction judgment that changes with layout, and word-similarity rankings that resemble human ratings while the raw scores do not. The hosts turn those results into practical advice for builders: pin the version and exact question, test wording, order and layout, compare with human ratings where available, and keep inactive inputs separate. The article and linked result write-ups have the full methods, numbers and caveats. Independent work; not affiliated with or endorsed by TypeSafe. This episode uses scripted AI-generated hosts and synthetic voices.",
+   "tags": [
+    "podcast",
+    "Cognitive tests at scale, for pennies"
+   ],
+   "_thread": {
+    "id": "jev-cognitive-tests-at-scale",
+    "url": "https://xanderpico.com/threads/jev-cognitive-tests-at-scale.html",
+    "markdown": "https://xanderpico.com/threads/jev-cognitive-tests-at-scale.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/resources/recursion-plans-vs-later/index.html",
+   "url": "https://xanderpico.com/resources/recursion-plans-vs-later/index.html",
+   "title": "Table: Recursion: what it said it would do, and what it says now",
+   "date_published": "2026-11-03T00:00:00Z",
+   "summary": "A scored record of Recursion's dated statements from its own filings and calls: what it said, what it said later, which items were met, missed or stopped, and the dates still ahead.",
+   "content_text": "A scored record of Recursion's dated statements from its own filings and calls: what it said, what it said later, which items were met, missed or stopped, and the dates still ahead.",
+   "tags": [
+    "table",
+    "AI-native biology, beyond the announcements"
+   ],
+   "_thread": {
+    "id": "ai-native-biotech",
+    "url": "https://xanderpico.com/threads/ai-native-biotech.html",
+    "markdown": "https://xanderpico.com/threads/ai-native-biotech.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/resources/recursion-what-it-adds-up-to/index.html",
+   "url": "https://xanderpico.com/resources/recursion-what-it-adds-up-to/index.html",
+   "title": "Article: Recursion promised 100 drugs, then proof",
+   "date_published": "2026-11-03T00:00:00Z",
+   "summary": "Five years of Recursion's own words: it missed its original plan, has produced its first real clinical signals, and has not yet shown either beats existing care. A scorecard and a verdict.",
+   "content_text": "Five years of Recursion's own words: it missed its original plan, has produced its first real clinical signals, and has not yet shown either beats existing care. A scorecard and a verdict.",
+   "tags": [
+    "article",
+    "AI-native biology, beyond the announcements"
+   ],
+   "_thread": {
+    "id": "ai-native-biotech",
+    "url": "https://xanderpico.com/threads/ai-native-biotech.html",
+    "markdown": "https://xanderpico.com/threads/ai-native-biotech.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/resources/growing-up-with-ai-advice/index.html",
+   "url": "https://xanderpico.com/resources/growing-up-with-ai-advice/index.html",
+   "title": "Article: Weightlifting, Not Forklifting: Advice for Growing Up with AI",
+   "date_published": "2026-10-31T00:00:00Z",
+   "summary": "Nobody knows what the AI future looks like, so don't bet a kid's childhood on one version of it. Five rules for parents and mentors that hold up either way: keep the workouts, hedge, ask how do you know, protect the human parts, and don't panic.",
+   "content_text": "Nobody knows what the AI future looks like, so don't bet a kid's childhood on one version of it. Five rules for parents and mentors that hold up either way: keep the workouts, hedge, ask how do you know, protect the human parts, and don't panic.",
+   "tags": [
+    "article",
+    "Growing up with AI"
+   ],
+   "_thread": {
+    "id": "growing-up-with-ai",
+    "url": "https://xanderpico.com/threads/growing-up-with-ai.html",
+    "markdown": "https://xanderpico.com/threads/growing-up-with-ai.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/resources/ai-native-observatory/index.html",
+   "url": "https://xanderpico.com/resources/ai-native-observatory/index.html",
+   "title": "Table: AI-native biotech observatory: plans versus later",
+   "date_published": "2026-10-29T00:00:00Z",
+   "summary": "A living record of what AI-native biotech companies said they would do, set against what their later filings say. First entries: Recursion (see its own page), Absci, Relay and Schrödinger, with a dated map of 41 companies. Work in progress.",
+   "content_text": "A living record of what AI-native biotech companies said they would do, set against what their later filings say. First entries: Recursion (see its own page), Absci, Relay and Schrödinger, with a dated map of 41 companies. Work in progress.",
+   "tags": [
+    "table",
+    "AI-native biology, beyond the announcements"
+   ],
+   "_thread": {
+    "id": "ai-native-biotech",
+    "url": "https://xanderpico.com/threads/ai-native-biotech.html",
+    "markdown": "https://xanderpico.com/threads/ai-native-biotech.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/resources/ai-native-observatory-issue-2/index.html",
+   "url": "https://xanderpico.com/resources/ai-native-observatory-issue-2/index.html",
+   "title": "Newsletter: When a company moves its own date: observatory issue 2",
+   "date_published": "2026-10-29T00:00:00Z",
+   "summary": "Three public AI-native drug discovery companies, three kinds of moved plans, read straight from their annual reports: Relay's runway, Schrödinger's narrowed and ended programs, and Absci's changed plan.",
+   "content_text": "Three public AI-native drug discovery companies, three kinds of moved plans, read straight from their annual reports: Relay's runway, Schrödinger's narrowed and ended programs, and Absci's changed plan.",
+   "tags": [
+    "newsletter",
+    "AI-native biology, beyond the announcements"
+   ],
+   "_thread": {
+    "id": "ai-native-biotech",
+    "url": "https://xanderpico.com/threads/ai-native-biotech.html",
+    "markdown": "https://xanderpico.com/threads/ai-native-biotech.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/podcast/index.html#ep1",
+   "url": "https://xanderpico.com/podcast/index.html#ep1",
+   "title": "Podcast: Frontier labs as national laboratories, the October newsletter",
+   "date_published": "2026-10-26T17:00:00-07:00",
+   "summary": "Frontier AI labs already get lab-style treatment from the US government, but through one-off levers rather than the contract that makes national labs open, graded and replaceable. This episode walks through the October issue of the Frontier Labs newsletter on xanderpico.com: the six levers in use, estimates for nine paths to 2030, the strongest objection, and what to watch next. Every claim comes from the published newsletter, which lists all 37 sources. The hosts, George and Jessica, are AI voices.",
+   "content_text": "Frontier AI labs already get lab-style treatment from the US government, but through one-off levers rather than the contract that makes national labs open, graded and replaceable. This episode walks through the October issue of the Frontier Labs newsletter on xanderpico.com: the six levers in use, estimates for nine paths to 2030, the strongest objection, and what to watch next. Every claim comes from the published newsletter, which lists all 37 sources. The hosts, George and Jessica, are AI voices.",
+   "tags": [
+    "podcast",
+    "Frontier labs as national laboratories"
+   ],
+   "_thread": {
+    "id": "frontier-labs-national-labs",
+    "url": "https://xanderpico.com/threads/frontier-labs-national-labs.html",
+    "markdown": "https://xanderpico.com/threads/frontier-labs-national-labs.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/resources/jev-senses-of-words/index.html",
+   "url": "https://xanderpico.com/resources/jev-senses-of-words/index.html",
+   "title": "Results: Which senses does a text-only AI hear in a word?",
+   "date_published": "2026-10-26T00:00:00Z",
+   "summary": "Jev rates 600 words on six senses and two body actions and is compared with human norms: closest on touch, furthest on the inner-body sense. Work in progress.",
+   "content_text": "Jev rates 600 words on six senses and two body actions and is compared with human norms: closest on touch, furthest on the inner-body sense. Work in progress.",
+   "tags": [
+    "results",
+    "Cognitive tests at scale, for pennies"
+   ],
+   "_thread": {
+    "id": "jev-cognitive-tests-at-scale",
+    "url": "https://xanderpico.com/threads/jev-cognitive-tests-at-scale.html",
+    "markdown": "https://xanderpico.com/threads/jev-cognitive-tests-at-scale.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/resources/jev-word-similarity/index.html",
+   "url": "https://xanderpico.com/resources/jev-word-similarity/index.html",
+   "title": "Results: Do word pairs feel as similar to Jev as to people?",
+   "date_published": "2026-10-26T00:00:00Z",
+   "summary": "A cheap AI model rates 999 word pairs for similarity and is compared with people's ratings: it ranks them well but is a harsher judge, and the wording of the question matters. Work in progress.",
+   "content_text": "A cheap AI model rates 999 word pairs for similarity and is compared with people's ratings: it ranks them well but is a harsher judge, and the wording of the question matters. Work in progress.",
+   "tags": [
+    "results",
+    "Cognitive tests at scale, for pennies"
+   ],
+   "_thread": {
+    "id": "jev-cognitive-tests-at-scale",
+    "url": "https://xanderpico.com/threads/jev-cognitive-tests-at-scale.html",
+    "markdown": "https://xanderpico.com/threads/jev-cognitive-tests-at-scale.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/resources/jev-synthesis/index.html",
+   "url": "https://xanderpico.com/resources/jev-synthesis/index.html",
+   "title": "Article: Cognitive tests at scale, for pennies: a short research article",
+   "date_published": "2026-10-26T00:00:00Z",
+   "summary": "A short summary and research article pulling the Jev results together: what a fast, cheap judgment model shares with people, where it differs, and what that means for AI builders, Jev users and brain researchers.",
+   "content_text": "A short summary and research article pulling the Jev results together: what a fast, cheap judgment model shares with people, where it differs, and what that means for AI builders, Jev users and brain researchers.",
+   "tags": [
+    "article",
+    "Cognitive tests at scale, for pennies"
+   ],
+   "_thread": {
+    "id": "jev-cognitive-tests-at-scale",
+    "url": "https://xanderpico.com/threads/jev-cognitive-tests-at-scale.html",
+    "markdown": "https://xanderpico.com/threads/jev-cognitive-tests-at-scale.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/threads/jev-cognitive-tests-at-scale.html",
+   "url": "https://xanderpico.com/threads/jev-cognitive-tests-at-scale.html",
+   "title": "Thread: Cognitive tests at scale, for pennies",
+   "date_published": "2026-10-25T00:00:00Z",
+   "summary": "Where do the quick judgments of a very cheap AI differ from ours, and what does running thousands of tests teach us about minds and about building with AI? Jev, from TypeSafe AI, answers a typed question about a text with a probability in about a fifth of a second for about two thousandths of a cent, and when it is confident it gives the same answer each time. That makes psychology-style experiments practical at a scale that normally needs hundreds of volunteers: rating thousands of words, or running a battery of classic bias tests in minutes. What turns up matters to AI builders, Jev users and brain researchers: some human quirks appear, some do not, and on first impressions it does the opposite of people.",
+   "content_text": "Where do the quick judgments of a very cheap AI differ from ours, and what does running thousands of tests teach us about minds and about building with AI? Jev, from TypeSafe AI, answers a typed question about a text with a probability in about a fifth of a second for about two thousandths of a cent, and when it is confident it gives the same answer each time. That makes psychology-style experiments practical at a scale that normally needs hundreds of volunteers: rating thousands of words, or running a battery of classic bias tests in minutes. What turns up matters to AI builders, Jev users and brain researchers: some human quirks appear, some do not, and on first impressions it does the opposite of people.",
+   "tags": [
+    "thread",
+    "Cognitive tests at scale, for pennies"
+   ],
+   "_thread": {
+    "id": "jev-cognitive-tests-at-scale",
+    "url": "https://xanderpico.com/threads/jev-cognitive-tests-at-scale.html",
+    "markdown": "https://xanderpico.com/threads/jev-cognitive-tests-at-scale.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/resources/jev-word-ratings/index.html",
+   "url": "https://xanderpico.com/resources/jev-word-ratings/index.html",
+   "title": "Results: Rating words the way people do",
+   "date_published": "2026-10-25T00:00:00Z",
+   "summary": "A cheap AI model rates 400 words each for concreteness, valence and arousal and is compared with published human norms: close on two, weaker on arousal, and where it disagrees. Work in progress.",
+   "content_text": "A cheap AI model rates 400 words each for concreteness, valence and arousal and is compared with published human norms: close on two, weaker on arousal, and where it disagrees. Work in progress.",
+   "tags": [
+    "results",
+    "Cognitive tests at scale, for pennies"
+   ],
+   "_thread": {
+    "id": "jev-cognitive-tests-at-scale",
+    "url": "https://xanderpico.com/threads/jev-cognitive-tests-at-scale.html",
+    "markdown": "https://xanderpico.com/threads/jev-cognitive-tests-at-scale.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/resources/jev-bias-battery/index.html",
+   "url": "https://xanderpico.com/resources/jev-bias-battery/index.html",
+   "title": "Results: Eight classic bias tests, one cheap AI model, two cents",
+   "date_published": "2026-10-25T00:00:00Z",
+   "summary": "A battery of classic psychology tests run on a fast, cheap AI judgment model: which human quirks it shows, which it does not, and the one it reverses. Includes the Linda problem and a first-impressions test that comes out the opposite way to people. Work in progress.",
+   "content_text": "A battery of classic psychology tests run on a fast, cheap AI judgment model: which human quirks it shows, which it does not, and the one it reverses. Includes the Linda problem and a first-impressions test that comes out the opposite way to people. Work in progress.",
+   "tags": [
+    "results",
+    "Cognitive tests at scale, for pennies"
+   ],
+   "_thread": {
+    "id": "jev-cognitive-tests-at-scale",
+    "url": "https://xanderpico.com/threads/jev-cognitive-tests-at-scale.html",
+    "markdown": "https://xanderpico.com/threads/jev-cognitive-tests-at-scale.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/resources/jev-builders-notes/index.html",
+   "url": "https://xanderpico.com/resources/jev-builders-notes/index.html",
+   "title": "Guide: Building with a gut-feeling model: notes from 200,000 calls",
+   "date_published": "2026-10-25T00:00:00Z",
+   "summary": "Practical rules for using Jev, a fast, cheap AI judgment model, from about 200,000 logged calls, including one failed attempt at a worm's nerve circuit.",
+   "content_text": "Practical rules for using Jev, a fast, cheap AI judgment model, from about 200,000 logged calls, including one failed attempt at a worm's nerve circuit.",
+   "tags": [
+    "guide",
+    "Cognitive tests at scale, for pennies"
+   ],
+   "_thread": {
+    "id": "jev-cognitive-tests-at-scale",
+    "url": "https://xanderpico.com/threads/jev-cognitive-tests-at-scale.html",
+    "markdown": "https://xanderpico.com/threads/jev-cognitive-tests-at-scale.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/questions-2026-10",
+   "url": "https://xanderpico.com/#questions",
+   "title": "Questions for October 2026",
+   "date_published": "2026-10-23T12:36:54-07:00",
+   "summary": "What does the high school math experiment change about what young people need to practice? What does the Anthropic–NNSA classifier suggest about how much of the national-laboratory model fits AI? If the bet behind Isomorphic Labs pays off, what changes first in AI-native biotech and drug discovery?",
+   "content_text": "What does the high school math experiment change about what young people need to practice? What does the Anthropic–NNSA classifier suggest about how much of the national-laboratory model fits AI? If the bet behind Isomorphic Labs pays off, what changes first in AI-native biotech and drug discovery?",
+   "tags": [
+    "questions"
+   ]
+  },
+  {
+   "id": "https://xanderpico.com/resources/frontier-labs-paths/index.html",
+   "url": "https://xanderpico.com/resources/frontier-labs-paths/index.html",
+   "title": "Tracker: Frontier labs paths tracker",
+   "date_published": "2026-10-22T00:00:00Z",
+   "summary": "Nine possible paths for how the US government and frontier AI labs might relate, each with signposts and an estimated probability, re-scored over time. Includes three simulated 2026 quarter-end points.",
+   "content_text": "Nine possible paths for how the US government and frontier AI labs might relate, each with signposts and an estimated probability, re-scored over time. Includes three simulated 2026 quarter-end points.",
+   "tags": [
+    "tracker",
+    "Frontier labs as national laboratories"
+   ],
+   "_thread": {
+    "id": "frontier-labs-national-labs",
+    "url": "https://xanderpico.com/threads/frontier-labs-national-labs.html",
+    "markdown": "https://xanderpico.com/threads/frontier-labs-national-labs.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/threads/growing-up-with-ai.html",
+   "url": "https://xanderpico.com/threads/growing-up-with-ai.html",
+   "title": "Thread: Growing up with AI",
+   "date_published": "2026-10-22T00:00:00Z",
+   "summary": "What should kids and teens practice for themselves and what can they hand to AI, and what does the evidence say so far? An essay of advice for kids, teens and future generations growing up with powerful AI.",
+   "content_text": "What should kids and teens practice for themselves and what can they hand to AI, and what does the evidence say so far? An essay of advice for kids, teens and future generations growing up with powerful AI.",
+   "tags": [
+    "thread",
+    "Growing up with AI"
+   ],
+   "_thread": {
+    "id": "growing-up-with-ai",
+    "url": "https://xanderpico.com/threads/growing-up-with-ai.html",
+    "markdown": "https://xanderpico.com/threads/growing-up-with-ai.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/threads/frontier-labs-national-labs.html",
+   "url": "https://xanderpico.com/threads/frontier-labs-national-labs.html",
+   "title": "Thread: Frontier labs as national laboratories",
+   "date_published": "2026-10-22T00:00:00Z",
+   "summary": "As national security and international competition press on the frontier AI labs, which past model of a national laboratory do they come to resemble, and where does the comparison break down? An essay on whether national security, secure methods and international competition will push the frontier AI labs toward national-laboratory status, and what past labs suggest about the shape that could take.",
+   "content_text": "As national security and international competition press on the frontier AI labs, which past model of a national laboratory do they come to resemble, and where does the comparison break down? An essay on whether national security, secure methods and international competition will push the frontier AI labs toward national-laboratory status, and what past labs suggest about the shape that could take.",
+   "tags": [
+    "thread",
+    "Frontier labs as national laboratories"
+   ],
+   "_thread": {
+    "id": "frontier-labs-national-labs",
+    "url": "https://xanderpico.com/threads/frontier-labs-national-labs.html",
+    "markdown": "https://xanderpico.com/threads/frontier-labs-national-labs.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/threads/ai-native-biotech.html",
+   "url": "https://xanderpico.com/threads/ai-native-biotech.html",
+   "title": "Thread: AI-native biology, beyond the announcements",
+   "date_published": "2026-10-22T00:00:00Z",
+   "summary": "What are AI-native biotech companies betting on, how do their approaches differ, and what changes as the work meets reality? A research series on the companies rebuilding biological discovery around AI: what they are betting on, how their approaches differ, and what changes as the work meets reality.",
+   "content_text": "What are AI-native biotech companies betting on, how do their approaches differ, and what changes as the work meets reality? A research series on the companies rebuilding biological discovery around AI: what they are betting on, how their approaches differ, and what changes as the work meets reality.",
+   "tags": [
+    "thread",
+    "AI-native biology, beyond the announcements"
+   ],
+   "_thread": {
+    "id": "ai-native-biotech",
+    "url": "https://xanderpico.com/threads/ai-native-biotech.html",
+    "markdown": "https://xanderpico.com/threads/ai-native-biotech.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/resources/ai-native-lab-ownership/index.html",
+   "url": "https://xanderpico.com/resources/ai-native-lab-ownership/index.html",
+   "title": "Table: Same shortage, different labs",
+   "date_published": "2026-10-22T00:00:00Z",
+   "summary": "Four AI-first drug discovery companies name the same shortage, accuracy in molecule design, yet own very different labs. A plot and table of what each says, with sources. Work in progress.",
+   "content_text": "Four AI-first drug discovery companies name the same shortage, accuracy in molecule design, yet own very different labs. A plot and table of what each says, with sources. Work in progress.",
+   "tags": [
+    "table",
+    "AI-native biology, beyond the announcements"
+   ],
+   "_thread": {
+    "id": "ai-native-biotech",
+    "url": "https://xanderpico.com/threads/ai-native-biotech.html",
+    "markdown": "https://xanderpico.com/threads/ai-native-biotech.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/resources/ai-native-lab-ownership-newsletter/index.html",
+   "url": "https://xanderpico.com/resources/ai-native-lab-ownership-newsletter/index.html",
+   "title": "Newsletter: Same shortage, four different labs: newsletter issue",
+   "date_published": "2026-10-22T00:00:00Z",
+   "summary": "The short written issue that goes with the lab-ownership table: what four AI drug discovery companies say is scarce, and how their labs differ. Read online.",
+   "content_text": "The short written issue that goes with the lab-ownership table: what four AI drug discovery companies say is scarce, and how their labs differ. Read online.",
+   "tags": [
+    "newsletter",
+    "AI-native biology, beyond the announcements"
+   ],
+   "_thread": {
+    "id": "ai-native-biotech",
+    "url": "https://xanderpico.com/threads/ai-native-biotech.html",
+    "markdown": "https://xanderpico.com/threads/ai-native-biotech.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/resources/frontier-labs-newsletter/index.html",
+   "url": "https://xanderpico.com/resources/frontier-labs-newsletter/index.html",
+   "title": "Newsletter: Frontier AI labs are already treated like national labs. Just not the way that counts.",
+   "date_published": "2026-10-22T00:00:00Z",
+   "summary": "The short written issue behind the paths tracker: what the US government does to frontier AI labs now, why it is not the national-lab contract, and where it probably goes by 2030. Read online.",
+   "content_text": "The short written issue behind the paths tracker: what the US government does to frontier AI labs now, why it is not the national-lab contract, and where it probably goes by 2030. Read online.",
+   "tags": [
+    "newsletter",
+    "Frontier labs as national laboratories"
+   ],
+   "_thread": {
+    "id": "frontier-labs-national-labs",
+    "url": "https://xanderpico.com/threads/frontier-labs-national-labs.html",
+    "markdown": "https://xanderpico.com/threads/frontier-labs-national-labs.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/threads/scale-tool.html",
+   "url": "https://xanderpico.com/threads/scale-tool.html",
+   "title": "Thread: Scale Tool",
+   "date_published": "2026-10-09T00:00:00Z",
+   "summary": "What can a single number mean when it is compared, without false equivalence, across quantities such as time, distance, mass, energy, information, and temperature? A React and TypeScript explorer in which one editable decimal value drives source-backed comparisons across nine distinct units. It keeps estimates, models, theory, and unknown quantities explicitly separate from measurements.",
+   "content_text": "What can a single number mean when it is compared, without false equivalence, across quantities such as time, distance, mass, energy, information, and temperature? A React and TypeScript explorer in which one editable decimal value drives source-backed comparisons across nine distinct units. It keeps estimates, models, theory, and unknown quantities explicitly separate from measurements.",
+   "tags": [
+    "thread",
+    "Scale Tool"
+   ],
+   "_thread": {
+    "id": "scale-tool",
+    "url": "https://xanderpico.com/threads/scale-tool.html",
+    "markdown": "https://xanderpico.com/threads/scale-tool.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/threads/jev-turing.html",
+   "url": "https://xanderpico.com/threads/jev-turing.html",
+   "title": "Thread: Jev Turing",
+   "date_published": "2026-10-08T00:00:00Z",
+   "summary": "What can be learned by treating one probabilistic, typed AI judgment as a logic primitive and checking each result against a known Boolean rule? An independent experiment that uses a Jev Boolean judgment as the only logic primitive for gates, an SR latch, and Rule 110 cell updates, with recorded runs and a ground-truth checker. It is not affiliated with TypeSafe AI or Vercel.",
+   "content_text": "What can be learned by treating one probabilistic, typed AI judgment as a logic primitive and checking each result against a known Boolean rule? An independent experiment that uses a Jev Boolean judgment as the only logic primitive for gates, an SR latch, and Rule 110 cell updates, with recorded runs and a ground-truth checker. It is not affiliated with TypeSafe AI or Vercel.",
+   "tags": [
+    "thread",
+    "Jev Turing"
+   ],
+   "_thread": {
+    "id": "jev-turing",
+    "url": "https://xanderpico.com/threads/jev-turing.html",
+    "markdown": "https://xanderpico.com/threads/jev-turing.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/threads/ai-journal.html",
+   "url": "https://xanderpico.com/threads/ai-journal.html",
+   "title": "Thread: AI Agent Journey Journal",
+   "date_published": "2026-08-19T00:00:00Z",
+   "summary": "How can a public journal describe the lasting changes in a personal AI-agent system without turning routine updates or private operating details into a story? A static, evidence-backed journal about changes from conversational AI assistants toward persistent local agent systems. It records directional changes in architecture, operation, governance, and understanding rather than routine updates.",
+   "content_text": "How can a public journal describe the lasting changes in a personal AI-agent system without turning routine updates or private operating details into a story? A static, evidence-backed journal about changes from conversational AI assistants toward persistent local agent systems. It records directional changes in architecture, operation, governance, and understanding rather than routine updates.",
+   "tags": [
+    "thread",
+    "AI Agent Journey Journal"
+   ],
+   "_thread": {
+    "id": "ai-journal",
+    "url": "https://xanderpico.com/threads/ai-journal.html",
+    "markdown": "https://xanderpico.com/threads/ai-journal.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/threads/passwords-in-the-age-of-ai.html",
+   "url": "https://xanderpico.com/threads/passwords-in-the-age-of-ai.html",
+   "title": "Thread: Passwords in the Age of AI",
+   "date_published": "2026-08-17T00:00:00Z",
+   "summary": "Which everyday habits matter most for keeping accounts safe now that AI makes familiar scams cheaper to run? A four-page, printable guide for friends and family on keeping accounts safe now that AI makes familiar scams easier: the five ways accounts get opened, password managers and passkeys, a security-key setup, recovery, and a worksheet for the accounts everything else depends on.",
+   "content_text": "Which everyday habits matter most for keeping accounts safe now that AI makes familiar scams cheaper to run? A four-page, printable guide for friends and family on keeping accounts safe now that AI makes familiar scams easier: the five ways accounts get opened, password managers and passkeys, a security-key setup, recovery, and a worksheet for the accounts everything else depends on.",
+   "tags": [
+    "thread",
+    "Passwords in the Age of AI"
+   ],
+   "_thread": {
+    "id": "passwords-in-the-age-of-ai",
+    "url": "https://xanderpico.com/threads/passwords-in-the-age-of-ai.html",
+    "markdown": "https://xanderpico.com/threads/passwords-in-the-age-of-ai.md"
+   }
+  },
+  {
+   "id": "https://xanderpico.com/resources/cybersafe/index.html",
+   "url": "https://xanderpico.com/resources/cybersafe/index.html",
+   "title": "Guide: Passwords in the Age of AI: a friends and family guide",
+   "date_published": "2026-08-17T00:00:00Z",
+   "summary": "A four-page, printable guide to keeping accounts safe now that AI makes familiar scams easier. August 2026.",
+   "content_text": "A four-page, printable guide to keeping accounts safe now that AI makes familiar scams easier. August 2026.",
+   "tags": [
+    "guide",
+    "Passwords in the Age of AI"
+   ],
+   "_thread": {
+    "id": "passwords-in-the-age-of-ai",
+    "url": "https://xanderpico.com/threads/passwords-in-the-age-of-ai.html",
+    "markdown": "https://xanderpico.com/threads/passwords-in-the-age-of-ai.md"
+   }
+  }
+ ]
+}

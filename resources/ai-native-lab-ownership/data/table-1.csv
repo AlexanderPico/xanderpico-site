@@ -1,0 +1,6 @@
+Company,What they say is scarce,Who owns the lab,How fast they can check their own claim,One line in their words,Sources read
+BigHat Biosciences,Design accuracy,"Integrated, automated lab (medium)",Days to weeks (high),“We have a lab that makes these molecules and generates data about them. We have AI tech that can use that lab to make molecules and test its predictions and learn from that.”,Two interviews (YouTube).
+Genesis Therapeutics,Design accuracy,Large in-house lab (high),Not stated in sources (low),"“there's numerous advantages to having in-house wet lab, data generation clearly, dog fooding the models, getting really direct human feedback from real med chemists”",Latent Space podcast (2026) and a 2023 interview.
+Absci Corporation,Design accuracy,Small validation lab (low),Months (high),"“We'll have a 13-week interim readout on that later this year with the 26 efficacy readout, first part of 27.”",Three conference and earnings transcripts.
+Manas AI,Design accuracy,No lab described (medium),Months (medium),“Right now our focus is mainly on making molecular generators. So we have partnerships that do these other aspects of drug development.”,Two interviews.
+Recursion Pharmaceuticals (reference),Target choice,"Integrated, automated lab (high)",Months (medium),“We do about two point two million experiments a week.”,Three sources plus an earnings call.
