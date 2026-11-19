@@ -3,7 +3,7 @@ title: "Frontier labs paths tracker"
 url: https://xanderpico.com/resources/frontier-labs-paths/index.html
 author: Alex Pico
 published: 2026-10-22
-updated: 2026-11-12
+updated: 2026-11-19
 kind: tracker
 thread: "Frontier labs as national laboratories"
 thread_url: https://xanderpico.com/threads/frontier-labs-national-labs.html
@@ -15,7 +15,7 @@ Resource · path tracker
 
 Nine possible paths for how the US government and frontier AI labs might relate, each with signposts and an estimated probability of happening by 2030. Re-scored over time; every snapshot is kept. The first measurement is 2026-10-22; the three earlier quarter-end points (March, June, September 2026) are simulated retrospective estimates, drawn as hollow dots, not contemporaneous measurements. Paths are ordered by current estimate.
 
-Snapshot 2026-11-12 · horizon **by end of 2030** (2030-12-31)
+Snapshot 2026-11-19 · horizon **by end of 2030** (2030-12-31)
 
 Each probability is a separate estimate that its path happens by the horizon. Paths can co-occur, so they do not sum to 100%. Estimates: draft estimates by the research team.
 
@@ -23,7 +23,7 @@ Each probability is a separate estimate that its path happens by the horizon. Pa
 
 ### A. Ad hoc levers continue (the status quo)
 
-90%range 80–96%+5 pts
+92%range 72–97%+2 pts
 
 Ad hoc levers continue (the status quo). Testing stays voluntary, controls are applied model by model, and disputes go to court.
 
@@ -33,15 +33,19 @@ Resolves YES if between 2026-10-23 and 2030-12-31 the federal government applies
 
 #### Signposts
 
-- Emerging↑ more firm- or model-specific federal directives or designations after 2026-10-22 as of 2026-11-12
-  Lawmakers have asked Commerce to suspend or review Nvidia's China licenses; no federal action had been taken as of this snapshot.
+- Emerging↑ more firm- or model-specific federal directives or designations after 2026-10-22 as of 2026-11-19
+  Lawmakers have asked Commerce to suspend or review Nvidia's China licenses; no federal action had been taken as of this snapshot. Anthropic's final prospectus says the FTC sent it a civil investigative demand in October 2026; the demand asserts no claims.
   - [Anthropic: Statement on the directive to suspend Fable 5 access (Jun 12, 2026)](https://www.anthropic.com/news/fable-mythos-access) [111]
   - [CNBC: Trump admin lifts export controls on Claude Fable 5 and Mythos 5 (Jun 30, 2026)](https://www.cnbc.com/2026/06/30/anthropic-says-trump-admin-has-lifted-export-controls-on-claude-fable-5-and-mythos-5.html) [113]
   - [CNBC: Appeals court upholds Pentagon designation of Anthropic (Sep 25, 2026)](https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html) [117]
   - [Reuters via Yahoo Finance — Nvidia spy allegations likely to spur laws to tighten China's access to AI chips (Nov 9, 2026)](https://ca.finance.yahoo.com/news/nvidia-spy-allegations-likely-spur-215426258.html) [298]
   - [Senate Banking Committee (minority) — Senator Warren Statement on NVIDIA CEO Jensen Huang's Resignation (Nov 12, 2026)](https://www.banking.senate.gov/newsroom/minority/senator-warren-statement-on-nvidia-ceo-jensen-huangs-resignation) [299]
-- Not yet↑ the Anthropic supply-chain-risk litigation reaching rehearing or the Supreme Court as of 2026-10-22
+  - [Anthropic, PBC — final prospectus, Form 424B4 (dated Nov 18, 2026; filed Nov 19, 2026)](https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm) [305]
+- Emerging↑ the Anthropic supply-chain-risk litigation reaching rehearing or the Supreme Court as of 2026-11-19
+  Anthropic asked the full D.C. Circuit to rehear the case on October 13, 2026. The government filed its response opposing rehearing on November 18. No ruling as of this snapshot.
   - [CNBC: Appeals court upholds Pentagon designation of Anthropic (Sep 25, 2026)](https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html) [117]
+  - [CourtListener — docket, Anthropic PBC v. U.S. Department of War, D.C. Cir. No. 26-1049 (entries through Nov 18, 2026)](https://www.courtlistener.com/docket/72380208/anthropic-pbc-v-united-states-department-of-war/) [306]
+  - [Respondents (U.S. Department of War) — Response to petition for rehearing or rehearing en banc, No. 26-1049 (Nov 18, 2026)](https://storage.courtlistener.com/recap/gov.uscourts.cadc.42923/gov.uscourts.cadc.42923.1208909414.0.pdf) [307]
 - Happened↑ EO 14409's pre-release access staying voluntary by its own text as of 2026-10-22
   - [White House: EO 14409, Promoting Advanced AI Innovation and Security (Jun 2, 2026)](https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security) [94]
 - Emerging↑ disputes over whether US or allied testers get pre-release access first reported as of 2026-10-22
@@ -65,7 +69,7 @@ id `A-adhoc-levers` · horizon 2030-12-31
 
 ### B. Steering through conditions on chips and contracts
 
-82%range 62–92%+2 pts
+85%range 65–94%+3 pts
 
 Steering through conditions on chips and contracts. The state governs frontier compute it does not own by attaching conditions to export licenses and investment agreements.[[183]](https://blogs.microsoft.com/blog/2024/04/15/microsoft-and-g42-partner-to-accelerate-ai-innovation-in-uae-and-beyond)[[185]](https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports) It is path G applied abroad first, and it is already running: Microsoft–G42 operates under an "Intergovernmental Assurance Agreement," and the 2025 G42 and HUMAIN approvals carry "security and reporting requirements."[[183]](https://blogs.microsoft.com/blog/2024/04/15/microsoft-and-g42-partner-to-accelerate-ai-innovation-in-uae-and-beyond)[[185]](https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports)
 
@@ -91,6 +95,18 @@ Resolves YES if between 2026-10-23 and 2030-12-31 there are at least three new p
   - [CISA/NSA advisory AA26-251A: China-based AI companies' industrial-scale distillation campaigns (Sep 8, 2026)](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a) [126]
   - [AP — Jensen Huang, a global salesman for artificial intelligence, resigns from Nvidia after affair (Nov 12, 2026)](https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f) [297]
 - Not yet↓ approvals granted without stated conditions as of 2026-10-22
+- Happened↑ advanced chips rented remotely through data centers outside China brought under license rules as of 2026-11-19
+  Added 2026-11-19. On November 16, 2026 Commerce released an interim final rule requiring a license to export advanced chips to data centers abroad that serve customers headquartered in China or other countries of concern above a set computing threshold, and for exports to five named countries. Scope as described by the agency release and two analyses; the rule text was not read in full.
+  - [Bureau of Industry and Security — BIS Issues Rule Addressing Remote Access to American Super Intelligence Technology (Nov 16, 2026)](https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology) [308]
+  - [CNAS Insights — Unpacking the Remote Access Rule (Nov 2026)](https://www.cnas.org/publications/cnas-insights/insights-unpacking-the-remote-access-rule) [309]
+  - [Pillsbury — Closing the Cloud Loophole: Commerce Issues Interim Final Rule Restricting Remote Access to Advanced Chips (Nov 2026)](https://www.pillsburylaw.com/en/news-and-insights/commerce-restricts-remote-access-advanced-chips.html) [310]
+- Emerging↓ the buyer's government blocks or limits purchases the US has licensed as of 2026-11-19
+  Added 2026-11-19. On November 17, 2026 Nvidia's interim chief executive said the company is no longer shipping licensed Hopper data-center chips to China and gave no reason. Reuters reports that Beijing has restricted H200 imports (reported).
+  - [Reuters — Nvidia stops shipping US-approved AI chips to China (Nov 18, 2026)](https://www.reuters.com/world/china/nvidia-stops-shipping-us-approved-ai-chips-china-2026-11-18/) [311]
+- Not yet↑ an annual defense bill enacted with binding chip or compute provisions as of 2026-11-19
+  Added 2026-11-19. The fiscal 2027 bill is still being negotiated. Lawmakers are reported to be weighing remote-access language alongside the chip bills already in the Senate text.
+  - [ndaa.ai — Latest FY2027 NDAA news (status roundup, read Nov 12, 2026)](https://ndaa.ai/news) [304]
+  - [Politico — Lawmakers look to add provisions restricting remote access to chips into defense package (Nov 18, 2026)](https://www.politico.com/live-updates/2026/11/18/congress/remote-access-chip-provisions-in-play-for-defense-package-01174329) [312]
 
 Proposers and analogues
 
@@ -103,7 +119,7 @@ id `B-conditional-compute` · horizon 2030-12-31
 
 ### C. Frontier labs as users and partners of national facilities
 
-60%range 45–75%±0 pts
+60%range 34–75%±0 pts
 
 Frontier labs as users and partners of national facilities. AI follows the beamline pattern: government-owned compute (Solstice, Lux, Doudna) allocated by merit review, with company work handled as proprietary use at full cost recovery, CRADAs or Strategic Partnership Projects.[[134]](https://science.osti.gov/User-Facilities/Frequently-Asked-Questions)[[140]](https://doeleadershipcomputing.org/call-for-proposals)[[158]](https://www.energy.gov/sites/default/files/2024-12/TTWG_Partnering_Guide.pdf) This is the path most grounded in how Argonne and Berkeley Lab already work.
 
@@ -139,7 +155,7 @@ id `C-lab-compute-partnerships` · horizon 2030-12-31
 
 ### D. A national-champion bargain
 
-35%range 20–52%+5 pts
+35%range 20–52%±0 pts
 
 A national-champion bargain. A Bell-style arrangement: protection, procurement and possibly equity in exchange for a public return.[[101]](https://www.aeaweb.org/articles?id=10.1257/pol.20190086)[[109]](https://www.cnbc.com/2026/06/05/trump-open-ai-altman-stake.html)
 
@@ -157,6 +173,9 @@ Resolves YES if by 2030-12-31 the US government acquires equity, warrants, a gol
 - Not yet↑ licensing or access concessions attached to procurement as of 2026-10-22
 - Emerging↓ public rejection of stakes by companies or Congress as of 2026-10-22
   - [Semafor: Trump advisers weigh structure of potential AI stakes (Jun 17, 2026)](https://www.semafor.com/article/06/17/2026/trump-advisers-weigh-structure-of-potential-ai-stakes) [110]
+- Not yet↑ a listed frontier developer or chip maker discloses a government right or binding condition: equity, a consent right, a golden share or a use term it must keep as of 2026-11-19
+  Added 2026-11-19. Anthropic's final prospectus lists government actions as business risks and puts government agencies at under 2% of revenue. A search of the text and a reading of the governance sections found no government equity, golden share or consent right.
+  - [Anthropic, PBC — final prospectus, Form 424B4 (dated Nov 18, 2026; filed Nov 19, 2026)](https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm) [305]
 
 Proposers and analogues
 
@@ -216,9 +235,14 @@ Resolves YES if by 2030-12-31 Congress or a federal agency establishes a new FFR
 - Not yet↑ a DOE or DoD solicitation for an AI facility operator as of 2026-10-22
 - Not yet↑ the 2025 Action Plan's high-security data centers becoming a government-owned site as of 2026-10-22
   - [White House: America's AI Action Plan (Jul 2025)](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf) [91]
-- Emerging↓ continued reliance on company-owned compute and in-kind pledges as of 2026-10-22
+- Emerging↓ continued reliance on company-owned compute and in-kind pledges as of 2026-11-19
+  Anthropic's final prospectus reports about $900.9 billion of purchase and lease commitments, substantially all for compute and infrastructure.
   - [White House: Fact sheet, science initiatives incl. $2.4B Genesis Mission Consortium pledges (Oct 8, 2026)](https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-trump-administration-announces-the-most-ambitious-set-of-science-initiatives-this-century) [95]
   - [DOE — New partnership with NVIDIA and Oracle to build largest DOE AI supercomputer (Solstice/Equinox, Oct 28, 2025)](https://www.energy.gov/articles/energy-department-announces-new-partnership-nvidia-and-oracle-build-largest-doe-ai) [143]
+  - [Anthropic, PBC — final prospectus, Form 424B4 (dated Nov 18, 2026; filed Nov 19, 2026)](https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm) [305]
+- Not yet↑ a lease for a private AI data center on federal land that states security or access terms for the government as of 2026-11-19
+  Added 2026-11-19. The Energy Department chose four federal sites for private AI data centers in July 2025. No lease with stated government security or access terms has been read for this tracker.
+  - [DOE — DOE Announces Site Selection for AI Data Center and Energy Infrastructure Development on Federal Lands (Jul 24, 2025)](https://www.energy.gov/articles/doe-announces-site-selection-ai-data-center-and-energy-infrastructure-development-federal) [313]
 
 Proposers and analogues
 
@@ -246,14 +270,18 @@ Resolves YES if by 2030-12-31 a federal statute or final rule requires licensing
 
 #### Signposts
 
-- Not yet↑ a replacement for the diffusion or compute-reporting rule that reaches API customers as of 2026-10-22
+- Not yet↑ a replacement for the diffusion or compute-reporting rule that reaches API customers as of 2026-11-19
+  On November 16, 2026 Commerce formally rescinded the AI diffusion rule and issued a rule on remote access to chips. As described by the agency and one analysis, it puts license duties on chip exports, not on API customers.
   - [Federal Register: BIS proposed rule, reporting requirements for advanced AI models and computing clusters (Sep 11, 2024)](https://www.federalregister.gov/documents/2024/09/11/2024-20529/establishment-of-reporting-requirements-for-the-development-of-advanced-artificial-intelligence) [82]
   - [BIS: Rescission of the AI Diffusion Rule (May 13, 2025)](https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens) [88]
-- Not yet↑ know-your-customer duties for compute providers as of 2026-11-12
-  Chip tracking by sellers, as in the proposed Chip Security Act, is counted under conditions on chips and contracts, not here. This path still needs a duty on compute or API providers.
+  - [Bureau of Industry and Security — BIS Issues Rule Addressing Remote Access to American Super Intelligence Technology (Nov 16, 2026)](https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology) [308]
+  - [CNAS Insights — Unpacking the Remote Access Rule (Nov 2026)](https://www.cnas.org/publications/cnas-insights/insights-unpacking-the-remote-access-rule) [309]
+- Not yet↑ know-your-customer duties for compute providers as of 2026-11-19
+  Chip tracking by sellers, as in the proposed Chip Security Act, is counted under conditions on chips and contracts, not here. This path still needs a duty on compute or API providers. The November 16 remote-access rule relies on what exporters know about a data center's customers and sets no customer-verification duty for compute providers, per one analysis.
   - [Egan & Heim: Oversight for Frontier AI through a KYC Scheme for Compute Providers (arXiv, Oct 2023)](https://arxiv.org/abs/2310.13625) [79]
   - [Federal Register: Commerce proposed IaaS KYC rule (Jan 29, 2024)](https://www.federalregister.gov/documents/2024/01/29/2024-01580/taking-additional-steps-to-address-the-national-emergency-with-respect-to-significant-malicious) [84]
   - [Reuters via Yahoo Finance — Nvidia spy allegations likely to spur laws to tighten China's access to AI chips (Nov 9, 2026)](https://ca.finance.yahoo.com/news/nvidia-spy-allegations-likely-spur-215426258.html) [298]
+  - [CNAS Insights — Unpacking the Remote Access Rule (Nov 2026)](https://www.cnas.org/publications/cnas-insights/insights-unpacking-the-remote-access-rule) [309]
 - Not yet↑ a statute making pre-release access mandatory as of 2026-10-22
   - [White House: EO 14409, Promoting Advanced AI Innovation and Security (Jun 2, 2026)](https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security) [94]
 - Not yet↑ a federal code of practice tied to a safe harbor as of 2026-10-22
@@ -373,9 +401,9 @@ Re-score quarterly, and also within two weeks of any event that changes a signpo
 
 [Chart: Probability of each path over time, with ranges]
 
-- A. Ad hoc levers continue (the status quo) 90% (80–96%)
-- B. Steering through conditions on chips and contracts 82% (62–92%)
-- C. Frontier labs as users and partners of national facilities 60% (45–75%)
+- A. Ad hoc levers continue (the status quo) 92% (72–97%)
+- B. Steering through conditions on chips and contracts 85% (65–94%)
+- C. Frontier labs as users and partners of national facilities 60% (34–75%)
 - D. A national-champion bargain 35% (20–52%)
 - E. A public lab spins out a company 25% (12–40%)
 - F. An AI FFRDC under an M&O contract 20% (8–35%)
@@ -389,19 +417,40 @@ Hollow dots, dashed lines and columns marked simulated are backfilled: simulated
 
 Data table
 
-| Path | 2026-03-31 simulated | 2026-06-30 simulated | 2026-09-30 simulated | 2026-10-22 | 2026-11-12 |
-| --- | --- | --- | --- | --- | --- |
-| Ad hoc levers continue (the status quo) | 80% (68–90%) | 85% (75–93%) | 83% (73–92%) | 85% (75–93%) | 90% (80–96%) |
-| Steering through conditions on chips and contracts | 78% (62–88%) | 80% (65–90%) | 80% (65–90%) | 80% (65–90%) | 82% (62–92%) |
-| Frontier labs as users and partners of national facilities | 55% (40–70%) | 53% (38–68%) | 60% (45–75%) | 60% (45–75%) | 60% (45–75%) |
-| A national-champion bargain | 22% (10–38%) | 30% (15–45%) | 30% (15–45%) | 30% (15–45%) | 35% (20–52%) |
-| A public lab spins out a company | 21% (10–36%) | 22% (10–38%) | 20% (9–35%) | 25% (12–40%) | 25% (12–40%) |
-| An AI FFRDC under an M&O contract | 18% (7–33%) | 19% (8–34%) | 20% (8–35%) | 20% (8–35%) | 20% (8–35%) |
-| The regulated circuit | 15% (7–30%) | 14% (6–28%) | 15% (7–30%) | 15% (7–30%) | 15% (7–30%) |
-| A contestable national-champion program | 12% (5–25%) | 12% (5–25%) | 12% (5–25%) | 12% (5–25%) | 12% (5–25%) |
-| An international lab | 5% (2–12%) | 5% (2–12%) | 6% (2–14%) | 5% (2–12%) | 5% (2–12%) |
+| Path | 2026-03-31 simulated | 2026-06-30 simulated | 2026-09-30 simulated | 2026-10-22 | 2026-11-12 | 2026-11-19 |
+| --- | --- | --- | --- | --- | --- | --- |
+| Ad hoc levers continue (the status quo) | 80% (68–90%) | 85% (75–93%) | 83% (73–92%) | 85% (75–93%) | 90% (80–96%) | 92% (72–97%) |
+| Steering through conditions on chips and contracts | 78% (62–88%) | 80% (65–90%) | 80% (65–90%) | 80% (65–90%) | 82% (62–92%) | 85% (65–94%) |
+| Frontier labs as users and partners of national facilities | 55% (40–70%) | 53% (38–68%) | 60% (45–75%) | 60% (45–75%) | 60% (45–75%) | 60% (34–75%) |
+| A national-champion bargain | 22% (10–38%) | 30% (15–45%) | 30% (15–45%) | 30% (15–45%) | 35% (20–52%) | 35% (20–52%) |
+| A public lab spins out a company | 21% (10–36%) | 22% (10–38%) | 20% (9–35%) | 25% (12–40%) | 25% (12–40%) | 25% (12–40%) |
+| An AI FFRDC under an M&O contract | 18% (7–33%) | 19% (8–34%) | 20% (8–35%) | 20% (8–35%) | 20% (8–35%) | 20% (8–35%) |
+| The regulated circuit | 15% (7–30%) | 14% (6–28%) | 15% (7–30%) | 15% (7–30%) | 15% (7–30%) | 15% (7–30%) |
+| A contestable national-champion program | 12% (5–25%) | 12% (5–25%) | 12% (5–25%) | 12% (5–25%) | 12% (5–25%) | 12% (5–25%) |
+| An international lab | 5% (2–12%) | 5% (2–12%) | 6% (2–14%) | 5% (2–12%) | 5% (2–12%) | 5% (2–12%) |
 
 ## Changelog
+
+### [2026-11-12](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-12.html) → [2026-11-19](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-19.html)
+
+Anthropic began trading on Nasdaq on November 19, 2026. Its final prospectus shows no government stake, board seat or consent right, and lists government actions as business risks.[305] One signpost moved because of the company: its request for full-court rehearing is pending and the government's reply is in, so ad hoc levers goes from 0.90 to 0.92.[306][307] The larger change is in chips. On November 16 Commerce released an interim final rule that puts license requirements on advanced chips serving Chinese customers remotely from data centers abroad, and on November 17 Nvidia said it had stopped shipping licensed chips to China.[308][311] Conditions on chips and contracts goes from 0.82 to 0.85. Five signposts are new: remote access under license rules, a buyer government limiting licensed purchases, the annual defense bill, a listed developer disclosing a government right, and federal-land leases with government terms. No resolution wording changed. The rule text was not read in full, so whether it alone meets the chips path's resolution test is left open.
+
+- **B. Steering through conditions on chips and contracts** 82% → 85% +3 pts range 62–92% → 65–94%
+  - new signpost Happened↑ advanced chips rented remotely through data centers outside China brought under license rules (+3 evidence)
+  - new signpost Emerging↓ the buyer's government blocks or limits purchases the US has licensed (+1 evidence)
+  - new signpost Not yet↑ an annual defense bill enacted with binding chip or compute provisions (+2 evidence)
+- **A. Ad hoc levers continue (the status quo)** 90% → 92% +2 pts range 80–96% → 72–97%
+  - Emerging → Emerging↑ more firm- or model-specific federal directives or designations after 2026-10-22 (+1 evidence)
+  - Not yet → Emerging↑ the Anthropic supply-chain-risk litigation reaching rehearing or the Supreme Court (+2 evidence)
+- **C. Frontier labs as users and partners of national facilities** 60% → 60% ±0 pts range 45–75% → 34–75%
+- **D. A national-champion bargain** 35% → 35% ±0 pts
+  - new signpost Not yet↑ a listed frontier developer or chip maker discloses a government right or binding condition: equity, a consent right, a golden share or a use term it must keep (+1 evidence)
+- **F. An AI FFRDC under an M&O contract** 20% → 20% ±0 pts
+  - Emerging → Emerging↓ continued reliance on company-owned compute and in-kind pledges (+1 evidence)
+  - new signpost Not yet↑ a lease for a private AI data center on federal land that states security or access terms for the government (+1 evidence)
+- **G. The regulated circuit** 15% → 15% ±0 pts
+  - Not yet → Not yet↑ a replacement for the diffusion or compute-reporting rule that reaches API customers (+2 evidence)
+  - Not yet → Not yet↑ know-your-customer duties for compute providers (+1 evidence)
 
 ### [2026-10-22](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-10-22.html) → [2026-11-12](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-12.html)
 
@@ -486,17 +535,18 @@ SIMULATED BACKFILL (2026-06-30, end of Q2 2026). A retrospective agent estimate 
 
 ## Snapshot history
 
-1. [2026-11-12](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-12.html)
-2. [2026-10-22](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-10-22.html)
-3. [2026-09-30](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-09-30.html) simulated backfill
-4. [2026-06-30](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-06-30.html) simulated backfill
-5. [2026-03-31](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-03-31.html) simulated backfill
+1. [2026-11-19](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-19.html)
+2. [2026-11-12](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-12.html)
+3. [2026-10-22](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-10-22.html)
+4. [2026-09-30](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-09-30.html) simulated backfill
+5. [2026-06-30](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-06-30.html) simulated backfill
+6. [2026-03-31](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-03-31.html) simulated backfill
 
 ---
 
 ## About this page
 
-- Cite as: Alex Pico. “Frontier labs paths tracker.” xanderpico.com, published October 22, 2026, updated November 12, 2026. https://xanderpico.com/resources/frontier-labs-paths/index.html
+- Cite as: Alex Pico. “Frontier labs paths tracker.” xanderpico.com, published October 22, 2026, updated November 19, 2026. https://xanderpico.com/resources/frontier-labs-paths/index.html
 - Tables as CSV: https://xanderpico.com/resources/frontier-labs-paths/data/table-1.csv
 - Thread: [Frontier labs as national laboratories](https://xanderpico.com/threads/frontier-labs-national-labs.md)
 - Next in this thread: [Frontier AI labs are already treated like national labs. Just not the way that counts.](https://xanderpico.com/resources/frontier-labs-newsletter/index.md)

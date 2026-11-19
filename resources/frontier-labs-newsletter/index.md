@@ -161,5 +161,6 @@ Written with AI assistance. Estimates are draft estimates by the research team, 
 - Tables as CSV: https://xanderpico.com/resources/frontier-labs-newsletter/data/table-1.csv
 - Thread: [Frontier labs as national laboratories](https://xanderpico.com/threads/frontier-labs-national-labs.md)
 - Previous in this thread: [Frontier labs paths tracker](https://xanderpico.com/resources/frontier-labs-paths/index.md)
+- Next in this thread: [Anthropic goes public... to stay private.](https://xanderpico.com/resources/anthropic-goes-public/index.md)
 - Updates for this thread: https://xanderpico.com/feeds/frontier-labs-national-labs.xml
 - Site index: https://xanderpico.com/llms.txt · connections between threads: https://xanderpico.com/site.json
