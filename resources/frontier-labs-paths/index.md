@@ -403,7 +403,7 @@ Re-score quarterly, and also within two weeks of any event that changes a signpo
 
 ## Probability over time
 
-[Chart: Probability of each path by snapshot date, with ranges]
+[Chart: Probability of each path over time, with ranges]
 
 - A. Steering through conditions on chips and contracts 100% (100–100%)
 - B. Ad hoc levers continue (the status quo) 92% (72–97%)
