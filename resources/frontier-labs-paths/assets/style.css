@@ -48,7 +48,8 @@ h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: v
 .evidence { margin: 6px 0 0; padding-left: 18px; font-size: 13px; }
 .evidence time { color: var(--muted); }
 .chart { margin: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px; display: grid; grid-template-columns: minmax(0, 3fr) minmax(220px, 1fr); gap: 12px; align-items: start; }
-.chart svg { width: 100%; height: auto; }
+.chart-plot { min-width: 0; overflow-x: auto; }
+.chart svg { display: block; width: 100%; height: auto; }
 .grid { stroke: var(--line); stroke-width: 1; }
 .tick { stroke: var(--muted); }
 .axis { fill: var(--muted); font-size: 11px; }
@@ -57,7 +58,10 @@ h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: v
 .legend { list-style: none; padding: 0; margin: 0; font-size: 13px; }
 .legend li { display: flex; gap: 8px; align-items: baseline; padding: 3px 0; }
 .legend .swatch { flex: none; }
-@media (max-width: 760px) { .chart { grid-template-columns: 1fr; } }
+@media (max-width: 760px) {
+  .chart { grid-template-columns: 1fr; }
+  .chart-plot svg { min-width: 700px; }
+}
 details.table { margin-top: 10px; }
 .scroll { overflow-x: auto; }
 table { border-collapse: collapse; font-size: 13px; margin-top: 8px; }
