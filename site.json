@@ -239,7 +239,7 @@
    "kind": "essay",
    "stage": "in development",
    "published": "2026-10-22",
-   "updated": "2026-11-19",
+   "updated": "2026-11-20",
    "guiding_question": "As national security and international competition press on the frontier AI labs, which past model of a national laboratory do they come to resemble, and where does the comparison break down?",
    "summary": "An essay on whether national security, secure methods and international competition will push the frontier AI labs toward national-laboratory status, and what past labs suggest about the shape that could take.",
    "tags": [
@@ -258,8 +258,8 @@
      "source": "https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-19.html"
     },
     {
-     "text": "Steering through conditions on chips and contracts is estimated at 85% (range 65–94%) by 2030, as of the 2026-11-19 snapshot.",
-     "source": "https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-19.html"
+     "text": "Steering through conditions on chips and contracts resolved YES on November 19, 2026, when a Commerce rule imposing reporting and know-your-customer conditions on chips for foreign data centers was published; recorded in the 2026-11-20 snapshot.",
+     "source": "https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-20.html"
     },
     {
      "text": "Frontier labs as users and partners of national facilities is estimated at 60% (range 34–75%) by 2030, as of the 2026-11-19 snapshot.",
@@ -287,7 +287,7 @@
      "kind": "tracker",
      "url": "https://xanderpico.com/resources/frontier-labs-paths/index.html",
      "published": "2026-10-22",
-     "updated": "2026-11-19",
+     "updated": "2026-11-20",
      "summary": "Nine possible paths for how the US government and frontier AI labs might relate, each with signposts and an estimated probability, re-scored over time. Includes three simulated 2026 quarter-end points.",
      "markdown": "https://xanderpico.com/resources/frontier-labs-paths/index.md",
      "tables_csv": [

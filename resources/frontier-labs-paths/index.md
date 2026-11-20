@@ -3,7 +3,7 @@ title: "Frontier labs paths tracker"
 url: https://xanderpico.com/resources/frontier-labs-paths/index.html
 author: Alex Pico
 published: 2026-10-22
-updated: 2026-11-19
+updated: 2026-11-20
 kind: tracker
 thread: "Frontier labs as national laboratories"
 thread_url: https://xanderpico.com/threads/frontier-labs-national-labs.html
@@ -15,15 +15,69 @@ Resource · path tracker
 
 Nine possible paths for how the US government and frontier AI labs might relate, each with signposts and an estimated probability of happening by 2030. Re-scored over time; every snapshot is kept. The first measurement is 2026-10-22; the three earlier quarter-end points (March, June, September 2026) are simulated retrospective estimates, drawn as hollow dots, not contemporaneous measurements. Paths are ordered by current estimate.
 
-Snapshot 2026-11-19 · horizon **by end of 2030** (2030-12-31)
+Snapshot 2026-11-20 · horizon **by end of 2030** (2030-12-31)
 
 Each probability is a separate estimate that its path happens by the horizon. Paths can co-occur, so they do not sum to 100%. Estimates: draft estimates by the research team.
 
 ## Paths
 
-### A. Ad hoc levers continue (the status quo)
+### A. Steering through conditions on chips and contracts
 
-92%range 72–97%+2 pts
+100%range 100–100%+15 pts
+
+Resolved **YES** on 2026-11-19 [[314]](https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors)
+
+Steering through conditions on chips and contracts. The state governs frontier compute it does not own by attaching conditions to export licenses and investment agreements.[[183]](https://blogs.microsoft.com/blog/2024/04/15/microsoft-and-g42-partner-to-accelerate-ai-innovation-in-uae-and-beyond)[[185]](https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports) It is path G applied abroad first, and it is already running: Microsoft–G42 operates under an "Intergovernmental Assurance Agreement," and the 2025 G42 and HUMAIN approvals carry "security and reporting requirements."[[183]](https://blogs.microsoft.com/blog/2024/04/15/microsoft-and-g42-partner-to-accelerate-ai-innovation-in-uae-and-beyond)[[185]](https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports)
+
+#### Resolves YES if
+
+Resolves YES if between 2026-10-23 and 2030-12-31 there are at least three new publicly announced US export approvals, licenses or government-backed agreements for foreign AI compute that state security, reporting, know-your-customer or monitoring conditions, or a federal statute or published federal rule that imposes such conditions, including chip tracking or location verification.
+
+#### Signposts
+
+- Emerging↑ intergovernmental assurance agreements reused as a template for other AI campuses as of 2026-10-22
+  - [Microsoft — Microsoft and G42 partner (Apr 15, 2024; $1.5B; Intergovernmental Assurance Agreement)](https://blogs.microsoft.com/blog/2024/04/15/microsoft-and-g42-partner-to-accelerate-ai-innovation-in-uae-and-beyond) [183]
+  - [US Department of Commerce — Statement on UAE and Saudi chip exports (Nov 19, 2025)](https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports) [185]
+- Emerging↑ know-your-customer or monitoring terms written into export licenses as of 2026-11-12
+  Licenses for H200-class chips to China already require customer screening and US third-party testing. The Chip Security Act would add tracking if enacted.
+  - [Federal Register: Commerce proposed IaaS KYC rule (Jan 29, 2024)](https://www.federalregister.gov/documents/2024/01/29/2024-01580/taking-additional-steps-to-address-the-national-emergency-with-respect-to-significant-malicious) [84]
+  - [US Department of Commerce — Statement on UAE and Saudi chip exports (Nov 19, 2025)](https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports) [185]
+  - [Chip Supply Chain — Chip export controls since 2018 (timeline; data checked Oct 28, 2026)](https://chipsupplychain.org/export-controls/) [300]
+  - [Reuters via Yahoo Finance — Nvidia spy allegations likely to spur laws to tighten China's access to AI chips (Nov 9, 2026)](https://ca.finance.yahoo.com/news/nvidia-spy-allegations-likely-spur-215426258.html) [298]
+- Not yet↑ the same conditions applied to domestic data centers (would also move G up) as of 2026-10-22
+  - [White House: EO 14409, Promoting Advanced AI Innovation and Security (Jun 2, 2026)](https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security) [94]
+- Emerging↓ evidence that conditions are evaded, e.g. extraction through clouds and proxies as of 2026-11-12
+  Megaspeed faced allegations that it shipped advanced Nvidia chips into China; it has said there was no evidence of such exports. Allegation, not a finding.
+  - [CISA/NSA advisory AA26-251A: China-based AI companies' industrial-scale distillation campaigns (Sep 8, 2026)](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a) [126]
+  - [AP — Jensen Huang, a global salesman for artificial intelligence, resigns from Nvidia after affair (Nov 12, 2026)](https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f) [297]
+- Not yet↓ approvals granted without stated conditions as of 2026-10-22
+- Happened↑ advanced chips rented remotely through data centers outside China brought under license rules as of 2026-11-20
+  The interim final rule was published in the Federal Register on November 19, 2026 and took effect that day. Its text requires monthly reports to Commerce for license-exempt shipments and expects exporters to obtain a foreign data center's know-your-customer checks.
+  - [Bureau of Industry and Security — BIS Issues Rule Addressing Remote Access to American Super Intelligence Technology (Nov 16, 2026)](https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology) [308]
+  - [CNAS Insights — Unpacking the Remote Access Rule (Nov 2026)](https://www.cnas.org/publications/cnas-insights/insights-unpacking-the-remote-access-rule) [309]
+  - [Pillsbury — Closing the Cloud Loophole: Commerce Issues Interim Final Rule Restricting Remote Access to Advanced Chips (Nov 2026)](https://www.pillsburylaw.com/en/news-and-insights/commerce-restricts-remote-access-advanced-chips.html) [310]
+  - [Federal Register — Addressing Remote Access to Advanced Semiconductors, interim final rule, document 2026-23529 (Nov 19, 2026)](https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors) [314]
+  - [Bureau of Industry and Security — Addressing Remote Access to Advanced Semiconductors, rule text, RIN 0694-AK50 (released Nov 16, 2026)](https://www.bis.gov/media/documents/rin-0694-ak50.pdf) [315]
+- Emerging↓ the buyer's government blocks or limits purchases the US has licensed as of 2026-11-19
+  Added 2026-11-19. On November 17, 2026 Nvidia's interim chief executive said the company is no longer shipping licensed Hopper data-center chips to China and gave no reason. Reuters reports that Beijing has restricted H200 imports (reported).
+  - [Reuters — Nvidia stops shipping US-approved AI chips to China (Nov 18, 2026)](https://www.reuters.com/world/china/nvidia-stops-shipping-us-approved-ai-chips-china-2026-11-18/) [311]
+- Not yet↑ an annual defense bill enacted with binding chip or compute provisions as of 2026-11-19
+  Added 2026-11-19. The fiscal 2027 bill is still being negotiated. Lawmakers are reported to be weighing remote-access language alongside the chip bills already in the Senate text.
+  - [ndaa.ai — Latest FY2027 NDAA news (status roundup, read Nov 12, 2026)](https://ndaa.ai/news) [304]
+  - [Politico — Lawmakers look to add provisions restricting remote access to chips into defense package (Nov 18, 2026)](https://www.politico.com/live-updates/2026/11/18/congress/remote-access-chip-provisions-in-play-for-defense-package-01174329) [312]
+
+Proposers and analogues
+
+##### International analogues
+
+- **United Arab Emirates**: Microsoft–G42 investment under an Intergovernmental Assurance Agreement [[183]](https://blogs.microsoft.com/blog/2024/04/15/microsoft-and-g42-partner-to-accelerate-ai-innovation-in-uae-and-beyond)
+- **United Arab Emirates and Saudi Arabia**: Commerce approvals for G42 and HUMAIN conditioned on security and reporting requirements [[185]](https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports)
+
+id `B-conditional-compute` · horizon 2030-12-31
+
+### B. Ad hoc levers continue (the status quo)
+
+92%range 72–97%±0 pts
 
 Ad hoc levers continue (the status quo). Testing stays voluntary, controls are applied model by model, and disputes go to court.
 
@@ -66,56 +120,6 @@ Proposers and analogues
 - **Canada**: Canadian AI Safety Institute [[182]](https://www.canada.ca/en/innovation-science-economic-development/news/2024/11/canada-launches-canadian-artificial-intelligence-safety-institute.html)
 
 id `A-adhoc-levers` · horizon 2030-12-31
-
-### B. Steering through conditions on chips and contracts
-
-85%range 65–94%+3 pts
-
-Steering through conditions on chips and contracts. The state governs frontier compute it does not own by attaching conditions to export licenses and investment agreements.[[183]](https://blogs.microsoft.com/blog/2024/04/15/microsoft-and-g42-partner-to-accelerate-ai-innovation-in-uae-and-beyond)[[185]](https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports) It is path G applied abroad first, and it is already running: Microsoft–G42 operates under an "Intergovernmental Assurance Agreement," and the 2025 G42 and HUMAIN approvals carry "security and reporting requirements."[[183]](https://blogs.microsoft.com/blog/2024/04/15/microsoft-and-g42-partner-to-accelerate-ai-innovation-in-uae-and-beyond)[[185]](https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports)
-
-#### Resolves YES if
-
-Resolves YES if between 2026-10-23 and 2030-12-31 there are at least three new publicly announced US export approvals, licenses or government-backed agreements for foreign AI compute that state security, reporting, know-your-customer or monitoring conditions, or a federal statute or published federal rule that imposes such conditions, including chip tracking or location verification.
-
-#### Signposts
-
-- Emerging↑ intergovernmental assurance agreements reused as a template for other AI campuses as of 2026-10-22
-  - [Microsoft — Microsoft and G42 partner (Apr 15, 2024; $1.5B; Intergovernmental Assurance Agreement)](https://blogs.microsoft.com/blog/2024/04/15/microsoft-and-g42-partner-to-accelerate-ai-innovation-in-uae-and-beyond) [183]
-  - [US Department of Commerce — Statement on UAE and Saudi chip exports (Nov 19, 2025)](https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports) [185]
-- Emerging↑ know-your-customer or monitoring terms written into export licenses as of 2026-11-12
-  Licenses for H200-class chips to China already require customer screening and US third-party testing. The Chip Security Act would add tracking if enacted.
-  - [Federal Register: Commerce proposed IaaS KYC rule (Jan 29, 2024)](https://www.federalregister.gov/documents/2024/01/29/2024-01580/taking-additional-steps-to-address-the-national-emergency-with-respect-to-significant-malicious) [84]
-  - [US Department of Commerce — Statement on UAE and Saudi chip exports (Nov 19, 2025)](https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports) [185]
-  - [Chip Supply Chain — Chip export controls since 2018 (timeline; data checked Oct 28, 2026)](https://chipsupplychain.org/export-controls/) [300]
-  - [Reuters via Yahoo Finance — Nvidia spy allegations likely to spur laws to tighten China's access to AI chips (Nov 9, 2026)](https://ca.finance.yahoo.com/news/nvidia-spy-allegations-likely-spur-215426258.html) [298]
-- Not yet↑ the same conditions applied to domestic data centers (would also move G up) as of 2026-10-22
-  - [White House: EO 14409, Promoting Advanced AI Innovation and Security (Jun 2, 2026)](https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security) [94]
-- Emerging↓ evidence that conditions are evaded, e.g. extraction through clouds and proxies as of 2026-11-12
-  Megaspeed faced allegations that it shipped advanced Nvidia chips into China; it has said there was no evidence of such exports. Allegation, not a finding.
-  - [CISA/NSA advisory AA26-251A: China-based AI companies' industrial-scale distillation campaigns (Sep 8, 2026)](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a) [126]
-  - [AP — Jensen Huang, a global salesman for artificial intelligence, resigns from Nvidia after affair (Nov 12, 2026)](https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f) [297]
-- Not yet↓ approvals granted without stated conditions as of 2026-10-22
-- Happened↑ advanced chips rented remotely through data centers outside China brought under license rules as of 2026-11-19
-  Added 2026-11-19. On November 16, 2026 Commerce released an interim final rule requiring a license to export advanced chips to data centers abroad that serve customers headquartered in China or other countries of concern above a set computing threshold, and for exports to five named countries. Scope as described by the agency release and two analyses; the rule text was not read in full.
-  - [Bureau of Industry and Security — BIS Issues Rule Addressing Remote Access to American Super Intelligence Technology (Nov 16, 2026)](https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology) [308]
-  - [CNAS Insights — Unpacking the Remote Access Rule (Nov 2026)](https://www.cnas.org/publications/cnas-insights/insights-unpacking-the-remote-access-rule) [309]
-  - [Pillsbury — Closing the Cloud Loophole: Commerce Issues Interim Final Rule Restricting Remote Access to Advanced Chips (Nov 2026)](https://www.pillsburylaw.com/en/news-and-insights/commerce-restricts-remote-access-advanced-chips.html) [310]
-- Emerging↓ the buyer's government blocks or limits purchases the US has licensed as of 2026-11-19
-  Added 2026-11-19. On November 17, 2026 Nvidia's interim chief executive said the company is no longer shipping licensed Hopper data-center chips to China and gave no reason. Reuters reports that Beijing has restricted H200 imports (reported).
-  - [Reuters — Nvidia stops shipping US-approved AI chips to China (Nov 18, 2026)](https://www.reuters.com/world/china/nvidia-stops-shipping-us-approved-ai-chips-china-2026-11-18/) [311]
-- Not yet↑ an annual defense bill enacted with binding chip or compute provisions as of 2026-11-19
-  Added 2026-11-19. The fiscal 2027 bill is still being negotiated. Lawmakers are reported to be weighing remote-access language alongside the chip bills already in the Senate text.
-  - [ndaa.ai — Latest FY2027 NDAA news (status roundup, read Nov 12, 2026)](https://ndaa.ai/news) [304]
-  - [Politico — Lawmakers look to add provisions restricting remote access to chips into defense package (Nov 18, 2026)](https://www.politico.com/live-updates/2026/11/18/congress/remote-access-chip-provisions-in-play-for-defense-package-01174329) [312]
-
-Proposers and analogues
-
-##### International analogues
-
-- **United Arab Emirates**: Microsoft–G42 investment under an Intergovernmental Assurance Agreement [[183]](https://blogs.microsoft.com/blog/2024/04/15/microsoft-and-g42-partner-to-accelerate-ai-innovation-in-uae-and-beyond)
-- **United Arab Emirates and Saudi Arabia**: Commerce approvals for G42 and HUMAIN conditioned on security and reporting requirements [[185]](https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports)
-
-id `B-conditional-compute` · horizon 2030-12-31
 
 ### C. Frontier labs as users and partners of national facilities
 
@@ -401,8 +405,8 @@ Re-score quarterly, and also within two weeks of any event that changes a signpo
 
 [Chart: Probability of each path over time, with ranges]
 
-- A. Ad hoc levers continue (the status quo) 92% (72–97%)
-- B. Steering through conditions on chips and contracts 85% (65–94%)
+- A. Steering through conditions on chips and contracts 100% (100–100%)
+- B. Ad hoc levers continue (the status quo) 92% (72–97%)
 - C. Frontier labs as users and partners of national facilities 60% (34–75%)
 - D. A national-champion bargain 35% (20–52%)
 - E. A public lab spins out a company 25% (12–40%)
@@ -417,19 +421,27 @@ Hollow dots, dashed lines and columns marked simulated are backfilled: simulated
 
 Data table
 
-| Path | 2026-03-31 simulated | 2026-06-30 simulated | 2026-09-30 simulated | 2026-10-22 | 2026-11-12 | 2026-11-19 |
-| --- | --- | --- | --- | --- | --- | --- |
-| Ad hoc levers continue (the status quo) | 80% (68–90%) | 85% (75–93%) | 83% (73–92%) | 85% (75–93%) | 90% (80–96%) | 92% (72–97%) |
-| Steering through conditions on chips and contracts | 78% (62–88%) | 80% (65–90%) | 80% (65–90%) | 80% (65–90%) | 82% (62–92%) | 85% (65–94%) |
-| Frontier labs as users and partners of national facilities | 55% (40–70%) | 53% (38–68%) | 60% (45–75%) | 60% (45–75%) | 60% (45–75%) | 60% (34–75%) |
-| A national-champion bargain | 22% (10–38%) | 30% (15–45%) | 30% (15–45%) | 30% (15–45%) | 35% (20–52%) | 35% (20–52%) |
-| A public lab spins out a company | 21% (10–36%) | 22% (10–38%) | 20% (9–35%) | 25% (12–40%) | 25% (12–40%) | 25% (12–40%) |
-| An AI FFRDC under an M&O contract | 18% (7–33%) | 19% (8–34%) | 20% (8–35%) | 20% (8–35%) | 20% (8–35%) | 20% (8–35%) |
-| The regulated circuit | 15% (7–30%) | 14% (6–28%) | 15% (7–30%) | 15% (7–30%) | 15% (7–30%) | 15% (7–30%) |
-| A contestable national-champion program | 12% (5–25%) | 12% (5–25%) | 12% (5–25%) | 12% (5–25%) | 12% (5–25%) | 12% (5–25%) |
-| An international lab | 5% (2–12%) | 5% (2–12%) | 6% (2–14%) | 5% (2–12%) | 5% (2–12%) | 5% (2–12%) |
+| Path | 2026-03-31 simulated | 2026-06-30 simulated | 2026-09-30 simulated | 2026-10-22 | 2026-11-12 | 2026-11-19 | 2026-11-20 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Ad hoc levers continue (the status quo) | 80% (68–90%) | 85% (75–93%) | 83% (73–92%) | 85% (75–93%) | 90% (80–96%) | 92% (72–97%) | 92% (72–97%) |
+| Steering through conditions on chips and contracts | 78% (62–88%) | 80% (65–90%) | 80% (65–90%) | 80% (65–90%) | 82% (62–92%) | 85% (65–94%) | 100% (100–100%) |
+| Frontier labs as users and partners of national facilities | 55% (40–70%) | 53% (38–68%) | 60% (45–75%) | 60% (45–75%) | 60% (45–75%) | 60% (34–75%) | 60% (34–75%) |
+| A national-champion bargain | 22% (10–38%) | 30% (15–45%) | 30% (15–45%) | 30% (15–45%) | 35% (20–52%) | 35% (20–52%) | 35% (20–52%) |
+| A public lab spins out a company | 21% (10–36%) | 22% (10–38%) | 20% (9–35%) | 25% (12–40%) | 25% (12–40%) | 25% (12–40%) | 25% (12–40%) |
+| An AI FFRDC under an M&O contract | 18% (7–33%) | 19% (8–34%) | 20% (8–35%) | 20% (8–35%) | 20% (8–35%) | 20% (8–35%) | 20% (8–35%) |
+| The regulated circuit | 15% (7–30%) | 14% (6–28%) | 15% (7–30%) | 15% (7–30%) | 15% (7–30%) | 15% (7–30%) | 15% (7–30%) |
+| A contestable national-champion program | 12% (5–25%) | 12% (5–25%) | 12% (5–25%) | 12% (5–25%) | 12% (5–25%) | 12% (5–25%) | 12% (5–25%) |
+| An international lab | 5% (2–12%) | 5% (2–12%) | 6% (2–14%) | 5% (2–12%) | 5% (2–12%) | 5% (2–12%) | 5% (2–12%) |
 
 ## Changelog
+
+### [2026-11-19](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-19.html) → [2026-11-20](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-20.html)
+
+The chips path has resolved. On November 19, 2026 Commerce's interim final rule on remote access to advanced chips was published in the Federal Register and took effect. Its text requires monthly reports to Commerce for license-exempt shipments and expects exporters to obtain a foreign data center's know-your-customer checks, which meets this path's test: a published federal rule imposing reporting, monitoring or know-your-customer conditions on chips for foreign AI compute.[314][315] The path resolved on the rule branch of its test, which was added on November 12, not on three separate conditioned deals. The rule is interim and open for comment; under this tracker's method a resolved path stays resolved. Nothing else changed.
+
+- **A. Steering through conditions on chips and contracts** 85% → 100% +15 pts range 65–94% → 100–100% letter B → A Resolved YES
+  - Happened → Happened↑ advanced chips rented remotely through data centers outside China brought under license rules (+2 evidence)
+- **B. Ad hoc levers continue (the status quo)** 92% → 92% ±0 pts letter A → B
 
 ### [2026-11-12](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-12.html) → [2026-11-19](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-19.html)
 
@@ -535,18 +547,19 @@ SIMULATED BACKFILL (2026-06-30, end of Q2 2026). A retrospective agent estimate 
 
 ## Snapshot history
 
-1. [2026-11-19](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-19.html)
-2. [2026-11-12](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-12.html)
-3. [2026-10-22](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-10-22.html)
-4. [2026-09-30](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-09-30.html) simulated backfill
-5. [2026-06-30](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-06-30.html) simulated backfill
-6. [2026-03-31](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-03-31.html) simulated backfill
+1. [2026-11-20](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-20.html)
+2. [2026-11-19](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-19.html)
+3. [2026-11-12](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-12.html)
+4. [2026-10-22](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-10-22.html)
+5. [2026-09-30](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-09-30.html) simulated backfill
+6. [2026-06-30](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-06-30.html) simulated backfill
+7. [2026-03-31](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-03-31.html) simulated backfill
 
 ---
 
 ## About this page
 
-- Cite as: Alex Pico. “Frontier labs paths tracker.” xanderpico.com, published October 22, 2026, updated November 19, 2026. https://xanderpico.com/resources/frontier-labs-paths/index.html
+- Cite as: Alex Pico. “Frontier labs paths tracker.” xanderpico.com, published October 22, 2026, updated November 20, 2026. https://xanderpico.com/resources/frontier-labs-paths/index.html
 - Tables as CSV: https://xanderpico.com/resources/frontier-labs-paths/data/table-1.csv
 - Thread: [Frontier labs as national laboratories](https://xanderpico.com/threads/frontier-labs-national-labs.md)
 - Next in this thread: [Frontier AI labs are already treated like national labs. Just not the way that counts.](https://xanderpico.com/resources/frontier-labs-newsletter/index.md)

@@ -26,7 +26,7 @@ Short index: https://xanderpico.com/llms.txt. Threads, their findings, resources
 - [Frontier labs as national laboratories](https://xanderpico.com/threads/frontier-labs-national-labs.html): As national security and international competition press on the frontier AI labs, which past model of a national laboratory do they come to resemble, and where does the comparison break down? Markdown: https://xanderpico.com/threads/frontier-labs-national-labs.md
   - Anthropic began trading on Nasdaq on November 19, 2026. Its final prospectus shows no government equity, golden share or special government right, and government agencies were under 2% of revenue in every period shown.
   - As of the 2026-11-19 snapshot, the highest estimate is 92% (range 72–97%) that ad hoc levers continue, the status quo, through 2030.
-  - Steering through conditions on chips and contracts is estimated at 85% (range 65–94%) by 2030, as of the 2026-11-19 snapshot.
+  - Steering through conditions on chips and contracts resolved YES on November 19, 2026, when a Commerce rule imposing reporting and know-your-customer conditions on chips for foreign data centers was published; recorded in the 2026-11-20 snapshot.
   - Frontier labs as users and partners of national facilities is estimated at 60% (range 34–75%) by 2030, as of the 2026-11-19 snapshot.
   - A national-champion bargain, with protection and procurement in exchange for a public return, is estimated at 35% (range 20–52%) by 2030, as of the 2026-11-19 snapshot.
   - An AI FFRDC under an M&O contract, where the government owns a secure AI facility and contracts an operator, is estimated at 20% (range 8–35%), as of the 2026-11-19 snapshot.

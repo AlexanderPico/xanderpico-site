@@ -3,7 +3,7 @@ title: "Frontier labs as national laboratories"
 url: https://xanderpico.com/threads/frontier-labs-national-labs.html
 author: Alex Pico
 published: 2026-10-22
-updated: 2026-11-19
+updated: 2026-11-20
 kind: thread
 tags: ["Frontier AI labs", "National laboratories", "AI policy", "AI safety"]
 feed: https://xanderpico.com/feeds/frontier-labs-national-labs.xml
@@ -19,7 +19,7 @@ An essay on whether national security, secure methods and international competit
 
 - Anthropic began trading on Nasdaq on November 19, 2026. Its final prospectus shows no government equity, golden share or special government right, and government agencies were under 2% of revenue in every period shown. Source: [Anthropic goes public... to stay private.](https://xanderpico.com/resources/anthropic-goes-public/index.md)
 - As of the 2026-11-19 snapshot, the highest estimate is 92% (range 72–97%) that ad hoc levers continue, the status quo, through 2030. Source: [Frontier labs paths tracker](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-19.html)
-- Steering through conditions on chips and contracts is estimated at 85% (range 65–94%) by 2030, as of the 2026-11-19 snapshot. Source: [Frontier labs paths tracker](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-19.html)
+- Steering through conditions on chips and contracts resolved YES on November 19, 2026, when a Commerce rule imposing reporting and know-your-customer conditions on chips for foreign data centers was published; recorded in the 2026-11-20 snapshot. Source: [Frontier labs paths tracker](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-20.html)
 - Frontier labs as users and partners of national facilities is estimated at 60% (range 34–75%) by 2030, as of the 2026-11-19 snapshot. Source: [Frontier labs paths tracker](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-19.html)
 - A national-champion bargain, with protection and procurement in exchange for a public return, is estimated at 35% (range 20–52%) by 2030, as of the 2026-11-19 snapshot. Source: [Frontier labs paths tracker](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-19.html)
 - An AI FFRDC under an M&O contract, where the government owns a secure AI facility and contracts an operator, is estimated at 20% (range 8–35%), as of the 2026-11-19 snapshot. Source: [Frontier labs paths tracker](https://xanderpico.com/resources/frontier-labs-paths/snapshots/2026-11-19.html)
@@ -48,6 +48,6 @@ Limits: The probabilities are judgment-based estimates that can co-occur and do 
 
 ---
 
-- Cite as: Alex Pico. “Frontier labs as national laboratories.” xanderpico.com, published October 22, 2026, updated November 19, 2026. https://xanderpico.com/threads/frontier-labs-national-labs.html
+- Cite as: Alex Pico. “Frontier labs as national laboratories.” xanderpico.com, published October 22, 2026, updated November 20, 2026. https://xanderpico.com/threads/frontier-labs-national-labs.html
 - Updates for this thread: https://xanderpico.com/feeds/frontier-labs-national-labs.xml
 - Site index: https://xanderpico.com/llms.txt · connections between threads: https://xanderpico.com/site.json
